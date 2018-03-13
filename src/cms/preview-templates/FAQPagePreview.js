@@ -6,9 +6,8 @@ const FAQPagePreview = ({ entry, widgetFor }) => (
     title={entry.getIn(['data', 'title'])}
     content={widgetFor('body')}
     faq={{
-      question: entry.getIn(['data', 'pricing', 'heading']),
-      answer: entry.getIn(['data', 'pricing', 'description']),
-      plans: pricingPlans,
+      question: entry.getIn(['data', 'question']),
+      answer: entry.getIn(['data', 'answer']),
     }}
   />
 )
