@@ -36,6 +36,7 @@ module.exports = {
       ],
     },
   },
+    `gatsby-plugin-glamor`,
     'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-transformer-remark',

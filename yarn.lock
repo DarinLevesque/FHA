@@ -3427,7 +3427,7 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "^2.0.0"
 
-fbjs@^0.8.14, fbjs@^0.8.16, fbjs@^0.8.9:
+fbjs@^0.8.12, fbjs@^0.8.14, fbjs@^0.8.16, fbjs@^0.8.9:
   version "0.8.16"
   resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.16.tgz#5e67432f550dc41b572bf55847b8aca64e5337db"
   dependencies:
@@ -3813,6 +3813,13 @@ gatsby-plugin-emotion@^1.1.16:
   dependencies:
     babel-runtime "^6.26.0"
 
+gatsby-plugin-glamor@^1.6.13:
+  version "1.6.13"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-glamor/-/gatsby-plugin-glamor-1.6.13.tgz#3e47fc78f7a86e68ebc6a9f4697db29a5681cc22"
+  dependencies:
+    babel-runtime "^6.26.0"
+    glamor "^2.20.29"
+
 gatsby-plugin-netlify-cms@^1.0.9:
   version "1.0.12"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify-cms/-/gatsby-plugin-netlify-cms-1.0.12.tgz#961144f45cf76aaa351b639777635f70a52001e7"
@@ -4133,6 +4140,16 @@ github-slugger@^1.1.1:
   resolved "https://registry.yarnpkg.com/github-slugger/-/github-slugger-1.2.0.tgz#8ada3286fd046d8951c3c952a8d7854cfd90fd9a"
   dependencies:
     emoji-regex ">=6.0.0 <=6.1.1"
+
+glamor@^2.20.29:
+  version "2.20.40"
+  resolved "https://registry.yarnpkg.com/glamor/-/glamor-2.20.40.tgz#f606660357b7cf18dface731ad1a2cfa93817f05"
+  dependencies:
+    fbjs "^0.8.12"
+    inline-style-prefixer "^3.0.6"
+    object-assign "^4.1.1"
+    prop-types "^15.5.10"
+    through "^2.3.8"
 
 glob-base@^0.3.0:
   version "0.3.0"
