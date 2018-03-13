@@ -35,6 +35,7 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "faq-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+          - {label: FAQ, name: faq, widget: object, fields: [{label: Question, name: question, widget: text}, {label: Answer, name: answer, widget: text}]}
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"

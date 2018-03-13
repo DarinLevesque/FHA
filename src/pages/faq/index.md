@@ -2,6 +2,14 @@
 templateKey: 'faq-page'
 path: /faq
 title: Frequently Asked Questions
+faq:
+  - question: I've been descriminated against with regard to my housing arrangments, what are my options?
+    answer: >
+      The Fair Housing Act estabilishes protected classes which make 
+      it illegal for landlords to descriminate against you. Learn more
+      about the protected classes and what they help to 
+  - question: Second question
+    answer: Answer to second question
 ---
 ### Shade-grown coffee
 Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.

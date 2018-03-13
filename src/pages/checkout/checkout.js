@@ -28,6 +28,7 @@ export default class Checkout extends React.Component {
                         data-locale="auto">
                       </script>
                     </form>
+                    <div id="card-wrapper"></div>
                     <CardReactFormContainer
 
                       // the id of the container element where you want to render the card element.
@@ -48,10 +49,10 @@ export default class Checkout extends React.Component {
                       // initial values to render in the card element
                       initialValues= {
                         {
-                          number: '4242424242424242', // optional — default •••• •••• •••• ••••
+                          number: '•••• •••• •••• ••••', // optional — default •••• •••• •••• ••••
                           cvc: '123', // optional — default •••
                           expiry: '16/12', // optional — default ••/••
-                          name: 'Random Name' // optional — default FULL NAME
+                          name: 'Nancy Smith' // optional — default FULL NAME
                         }
                       }
 
@@ -76,7 +77,6 @@ export default class Checkout extends React.Component {
                       </form>
 
                     </CardReactFormContainer>
-                    <div id="card-wrapper"></div>
                   </div>
                 </div>
               </div>

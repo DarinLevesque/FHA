@@ -24,6 +24,9 @@
     "gatsby-transformer-sharp": "^1.6.21",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
+    "react-accessible-accordion": "^2.2.1",
+    "react-burger-menu": "^2.3.0",
+    "react-dom": "^16.2.0",
     "react-emotion": "^9.0.2",
     "react-helmet": "^5.2.0"
   },
