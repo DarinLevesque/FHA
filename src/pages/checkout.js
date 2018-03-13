@@ -1,7 +1,7 @@
-import React from 'react'
-import CardReactFormContainer from 'card-react'
+import React from 'react';
+import CardReactFormContainer from 'card-react';
 
-import './checkout.css'
+import './checkout.css';
 
 export default class Checkout extends React.Component {
   render () {
