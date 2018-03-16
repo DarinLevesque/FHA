@@ -3948,10 +3948,6 @@ gatsby-plugin-sharp@^1.6.34, gatsby-plugin-sharp@^1.6.39:
     sharp "^0.20.0"
     svgo "^0.7.2"
 
-gatsby-plugin-stripe-checkout@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-stripe-checkout/-/gatsby-plugin-stripe-checkout-1.0.2.tgz#cf17e8fb2a2b7a2cd450de3e3d90c4c45e4b41da"
-
 gatsby-react-router-scroll@^1.0.13:
   version "1.0.13"
   resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-1.0.13.tgz#d1cfd43c334497ad174ae9409c24bb5d4dcda3aa"
