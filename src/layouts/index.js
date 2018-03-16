@@ -8,7 +8,7 @@ import './all.sass'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet title="Fair Housing Advocates, Inc.">
-    <script src="https://js.stripe.com/v3/"" type="text/javascript" />
+    <script src="https://js.stripe.com/v3/" type="text/javascript" />
     </ Helmet>
     <Navbar />
     <div>{children()}</div>
