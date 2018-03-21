@@ -40,7 +40,7 @@ componentDidMount() {
             token: (token) => {
                 this.setState({ loading: true });
                 // use fetch or some other AJAX library here if you dont want to use axios
-                axios.post('/your-server-side-code', {
+                axios.post('/payments', {
                     stripeToken: token.id,
                 });
             }
