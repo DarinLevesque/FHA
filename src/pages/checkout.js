@@ -40,7 +40,7 @@ componentDidMount() {
             token: (token) => {
                 this.setState({ loading: true });
                 // use fetch or some other AJAX library here if you dont want to use axios
-                axios.post('/payments', {
+                axios.post('/.netlify/functions/createCharge', {
                     stripeToken: token.id,
                 });
             }
@@ -78,16 +78,6 @@ render() {
                 ? <p>loading..</p>
                 : <button onClick={this.onStripeUpdate}>Add CC</button>
             }
-            <form action="/.netlify/functions/createCharge/" method="POST">
-                <script
-                src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                data-key="pk_test_bwDxe6R8crYZebNVmjYu9Dxr"
-                data-amount="2000"
-                data-name="Stripe.com"
-                data-description="Test item"
-                data-locale="auto">
-                </script>
-            </form>
         </div>
     );
 }
