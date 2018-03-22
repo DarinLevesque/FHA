@@ -78,7 +78,7 @@ render() {
                 ? <p>loading..</p>
                 : <button onClick={this.onStripeUpdate}>Add CC</button>
             }
-            <form action="https://wt-5ea1ab379e697c2192ab2a77aebced14-0.run.webtask.io/stripe-payment/stripe-payment/payment?currency=USD&amount=2000&description=Test%20item" method="POST">
+            <form action="/.netlify/functions/createCharge/" method="POST">
                 <script
                 src="https://checkout.stripe.com/checkout.js" class="stripe-button"
                 data-key="pk_test_bwDxe6R8crYZebNVmjYu9Dxr"

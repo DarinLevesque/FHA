@@ -19,13 +19,15 @@
     "gatsby-source-filesystem": "^1.5.23",
     "gatsby-transformer-remark": "^1.7.33",
     "gatsby-transformer-sharp": "^1.6.21",
+    "netlify-lambda": "^0.2.0",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-accessible-accordion": "^2.2.1",
     "react-bootstrap": "^0.32.1",
     "react-burger-menu": "^2.3.0",
     "react-dom": "^16.2.0",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "uuid": "^3.2.1"
   },
   "keywords": [
     "gatsby"
@@ -41,6 +43,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^1.7.4"
+    "concurrently": "^3.5.1",
+    "prettier": "^1.7.4",
+    "toml": "^2.3.3"
   }
 }
