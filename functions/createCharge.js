@@ -1,4 +1,4 @@
-const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
+const stripe = require('stripe')(pk_test_bwDxe6R8crYZebNVmjYu9Dxr);
 
 exports.handler = function(event, context, callback) {
   const requestBody = JSON.parse(event.body);
