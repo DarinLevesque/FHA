@@ -40,7 +40,7 @@ componentDidMount() {
             token: (token) => {
                 this.setState({ loading: true });
                 // use fetch or some other AJAX library here if you dont want to use axios
-                axios.post('/.netlify/functions/createCharge', {
+                fetch.post('/.netlify/functions/createCharge', {
                     stripeToken: token.id,
                 });
             }
