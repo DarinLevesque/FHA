@@ -6,6 +6,7 @@
   "dependencies": {
     "bulma": "^0.6.0",
     "card-react": "^1.2.7",
+    "dotenv": "^5.0.1",
     "gatsby": "^1.9.213",
     "gatsby-link": "^1.6.37",
     "gatsby-plugin-glamor": "^1.6.13",
@@ -27,6 +28,7 @@
     "react-burger-menu": "^2.3.0",
     "react-dom": "^16.2.0",
     "react-helmet": "^5.2.0",
+    "stripe": "^5.5.0",
     "uuid": "^3.2.1"
   },
   "keywords": [
