@@ -31,7 +31,6 @@ loadStripe(onload) {
 }
 
 componentDidMount() {
-
     this.loadStripe(() => {
         this.stripeHandler = window.StripeCheckout.configure({
             key: 'pk_test_bwDxe6R8crYZebNVmjYu9Dxr',
@@ -40,7 +39,7 @@ componentDidMount() {
             token: (token) => {
                 this.setState({ loading: true });
                 // use fetch or some other AJAX library here if you dont want to use axios
-                fetch.post('/.netlify/functions/createCharge', {
+                axios.post('/.netlify/functions/createCharge', {
                     stripeToken: token.id,
                 });
             }
