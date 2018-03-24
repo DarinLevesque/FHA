@@ -40,7 +40,7 @@ componentDidMount() {
             token: (token) => {
                 this.setState({ loading: true });
                 // use fetch or some other AJAX library here if you dont want to use axios
-                fetch(`${LAMBDA_ENDPOINT}purchase`, {
+                fetch(`https://new.fairhousingact.org/.netlify/functions/purchase`, {
                     method: 'POST',
                     body: JSON.stringify({
                       token,
@@ -87,12 +87,12 @@ render() {
                 : <button onClick={this.onStripeUpdate}>Add CC</button>
             }
             <button>Click to Buy! <strong>$100</strong></button>
-            <form action="" method="POST">
+            <form action="https://new.fairhousingact.org/.netlify/functions/purchase" method="POST">
             <script
                 src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                data-key="pk_live_YOUR_STRIPE_KEY"
-                data-image="images/marketplace.png"
-                data-name="Emma's Farm CSA"
+                data-key="pk_test_bwDxe6R8crYZebNVmjYu9Dxr"
+                data-image="/public/favicon/home_white_192x192.png"
+                data-name="FHA buy"
                 data-description="Subscription for 1 weekly box"
                 data-amount="2000"
                 data-label="Sign Up Now for $20/month!">

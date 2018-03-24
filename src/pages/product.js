@@ -5,7 +5,7 @@ export default class Product extends React.Component {
 render() {
     return (
         <div>
-            <form action="/.netlify/functions/startCharge" method="POST">
+            <form action="/.netlify/functions/startCharge/" method="POST">
             <script
                 src="https://checkout.stripe.com/checkout.js" class="stripe-button"
                 data-key="pk_test_bwDxe6R8crYZebNVmjYu9Dxr"
