@@ -15,6 +15,18 @@ export default class Checkout extends React.Component {
     this.onStripeUpdate = this.onStripeUpdate.bind(this);
     // binding loadStripe as a best practice, not doing so does not seem to cause error.
     this.loadStripe = this.loadStripe.bind(this);
+    $button.addEventListener('click', () => {
+
+        setTimeout(() => {
+          $button.innerHTML = 'Waiting for response...';
+        }, 500);
+      
+        handler.open({
+          amount,
+          name: 'Test Shop',
+          description: 'A Fantastic New Widget'
+        });
+      });
 }
 
 loadStripe(onload) {
@@ -76,6 +88,7 @@ onStripeUpdate(e) {
     });
     e.preventDefault();
 }
+
 
 render() {
     const { stripeLoading, loading } = this.state;
