@@ -69,9 +69,10 @@ componentWillUnmount() {
 
 onStripeUpdate(e) {
     this.stripeHandler.open({
-        name: 'test',
+        name: 'Fair Housing Act',
         description: 'widget',
-        panelLabel: 'Update Credit Card',
+        amount: '2000',
+        panelLabel: 'Pay $20.00',
         allowRememberMe: false,
     });
     e.preventDefault();
@@ -86,7 +87,6 @@ render() {
                 ? <p>loading..</p>
                 : <button onClick={this.onStripeUpdate}>Add CC</button>
             }
-            <button>Click to Buy! <strong>$100</strong></button>
             <form action="https://new.fairhousingact.org/.netlify/functions/purchase" method="POST">
             <script
                 src="https://checkout.stripe.com/checkout.js" class="stripe-button"
