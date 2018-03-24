@@ -15,18 +15,6 @@ export default class Checkout extends React.Component {
     this.onStripeUpdate = this.onStripeUpdate.bind(this);
     // binding loadStripe as a best practice, not doing so does not seem to cause error.
     this.loadStripe = this.loadStripe.bind(this);
-    $button.addEventListener('click', () => {
-
-        setTimeout(() => {
-          $button.innerHTML = 'Waiting for response...';
-        }, 500);
-      
-        handler.open({
-          amount,
-          name: 'Test Shop',
-          description: 'A Fantastic New Widget'
-        });
-      });
 }
 
 loadStripe(onload) {
@@ -99,6 +87,17 @@ render() {
                 : <button onClick={this.onStripeUpdate}>Add CC</button>
             }
             <button>Click to Buy! <strong>$100</strong></button>
+            <form action="" method="POST">
+            <script
+                src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                data-key="pk_live_YOUR_STRIPE_KEY"
+                data-image="images/marketplace.png"
+                data-name="Emma's Farm CSA"
+                data-description="Subscription for 1 weekly box"
+                data-amount="2000"
+                data-label="Sign Up Now for $20/month!">
+            </script>
+            </form>
         </div>
     );
 }
