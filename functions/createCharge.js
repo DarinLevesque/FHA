@@ -9,5 +9,5 @@ exports.handler = function(event, context, callback) {
     source: 'tok_visa',
     receipt_email: 'jenny.rosen@example.com',
     });
-    console.log('created charge from ' {receipt_email})
+    console.log('created charge from ' + receipt_email);
 }
