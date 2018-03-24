@@ -1,0 +1,2 @@
+# Redirects from what the browser requests to what we serve
+/payments              https://wt-5ea1ab379e697c2192ab2a77aebced14-0.run.webtask.io/stripe-payment/payment

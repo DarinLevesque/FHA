@@ -1,5 +1,6 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
+import { Grid, Row, Col, Carousel, CarouselItem, CarouselCaption } from 'react-bootstrap';
 
 export default class IndexPage extends React.Component {
   render() {
@@ -8,35 +9,70 @@ export default class IndexPage extends React.Component {
 
     return (
       <section className="section">
+      <Carousel>
+        <Carousel.Item>
+          <img width={900} height={500} alt="900x500" src="/carousel.png" />
+          <Carousel.Caption>
+            <h3>First slide label</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img width={900} height={500} alt="900x500" src="/carousel.png" />
+          <Carousel.Caption>
+            <h3>Second slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img width={900} height={500} alt="900x500" src="/carousel.png" />
+          <Carousel.Caption>
+            <h3>Third slide label</h3>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
         <div className="container">
           <div className="content">
-            <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
+            <h1 className="has-text-weight-bold is-size-2">Index</h1>
           </div>
-          {posts
-            .filter(post => post.node.frontmatter.templateKey === 'blog-post')
-            .map(({ node: post }) => (
-              <div
-                className="content"
-                style={{ border: '1px solid #eaecee', padding: '2em 4em' }}
-                key={post.id}
-              >
-                <p>
-                  <Link className="has-text-primary" to={post.fields.slug}>
-                    {post.frontmatter.title}
-                  </Link>
-                  <span> &bull; </span>
-                  <small>{post.frontmatter.date}</small>
-                </p>
-                <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button is-small" to={post.fields.slug}>
-                    Keep Reading →
-                  </Link>
-                </p>
-              </div>
-            ))}
+          <Grid>
+            <Row className="show-grid">
+              <Col xs={12} md={8}>
+                <code>&lt;{'Col xs={12} md={8}'} /&gt;</code>
+              </Col>
+              <Col xs={6} md={4}>
+                <code>&lt;{'Col xs={6} md={4}'} /&gt;</code>
+              </Col>
+            </Row>
+
+            <Row className="show-grid">
+              <Col xs={6} md={4}>
+                <code>&lt;{'Col xs={6} md={4}'} /&gt;</code>
+              </Col>
+              <Col xs={6} md={4}>
+                <code>&lt;{'Col xs={6} md={4}'} /&gt;</code>
+              </Col>
+              <Col xsHidden md={4}>
+                <code>&lt;{'Col xsHidden md={4}'} /&gt;</code>
+              </Col>
+            </Row>
+
+            <Row className="show-grid">
+              <Col xs={6} xsOffset={6}>
+                <code>&lt;{'Col xs={6} xsOffset={6}'} /&gt;</code>
+              </Col>
+            </Row>
+
+            <Row className="show-grid">
+              <Col md={6} mdPush={6}>
+                <code>&lt;{'Col md={6} mdPush={6}'} /&gt;</code>
+              </Col>
+              <Col md={6} mdPull={6}>
+                <code>&lt;{'Col md={6} mdPull={6}'} /&gt;</code>
+              </Col>
+            </Row>
+          </Grid>;
         </div>
       </section>
     )

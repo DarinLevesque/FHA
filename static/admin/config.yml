@@ -35,12 +35,12 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "faq-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
-          - {label: FAQ, name: faq, widget: object, fields: {label: FAQs, name: faqs, widget: list, fields: [{label: Question, name: question, widget: text}, {label: Answer, name: answer, widget: text}]}}
-      - file: "src/pages/products/index.md"
-        label: "Products Page"
-        name: "products"
+          - {label: FAQ, name: faq, widget: object, fields: [{label: FAQs, name: faqs, widget: list, fields: [{label: Question, name: question, widget: text}, {label: Answer, name: answer, widget: text}]}]}
+      - file: "src/pages/services/index.md"
+        label: "Services Page"
+        name: "services"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "services-page"}
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image}
           - {label: Heading, name: heading, widget: string}
