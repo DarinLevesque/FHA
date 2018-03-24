@@ -1,63 +1,50 @@
 import React from 'react';
-import Content, { HTMLContent } from '../components/Content';
 
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemTitle,
-  AccordionItemBody,
-} from 'react-accessible-accordion';
+import Faq from '../components/Faq';
 
-import 'react-accessible-accordion/dist/fancy-example.css';
-
-export const FAQPageTemplate = ({ title, content, contentComponent }) => {
-  const PageContent = contentComponent || Content;
-
-  return (
+export const FAQPageTemplate = ({ 
+  title,
+  faq,
+ }) => (
     <section className="section section--gradient">
       <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
+      <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">{title}<br />
+                <small>Frequently Asked Questions</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="/">Home</a>
+                </li>
+                <li class="active">About</li>
+            </ol>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col-lg-12">
             <div className="section">
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h2>
-              <PageContent className="content" content={content} />
-              <Accordion>
-                <AccordionItem>
-                    <AccordionItemTitle>
-                        <h3>Simple title</h3>
-                    </AccordionItemTitle>
-                    <AccordionItemBody>
-                        <p>Body content</p>
-                    </AccordionItemBody>
-                </AccordionItem>
-                <AccordionItem>
-                    <AccordionItemTitle>
-                        <h3>Complex title</h3>
-                        <div>With a bit of description</div>
-                    </AccordionItemTitle>
-                    <AccordionItemBody>
-                        <p>Body content</p>
-                    </AccordionItemBody>
-                </AccordionItem>
-            </Accordion>
+              <h2 className="has-text-weight-semibold is-size-2">
+                {faq.heading}
+              </h2>
+              <p className="is-size-5">{faq.description}</p>
+              <Faq data={faq.faqs} />
             </div>
           </div>
         </div>
       </div>
     </section>
   )
-}
 
 export default ({ data }) => {
-  const { markdownRemark: post } = data
+  const { frontmatter } = data.markdownRemark
 
   return (
     <FAQPageTemplate
-      contentComponent={HTMLContent}
-      title={post.frontmatter.title}
-      content={post.html}
+      title={frontmatter.title}
+      faq={frontmatter.faq}
     />
   )
 }
@@ -68,6 +55,14 @@ export const FAQPageQuery = graphql`
       html
       frontmatter {
         title
+        faq {
+          heading
+          description
+          faqs {
+            question
+            answer
+          }
+        }
       }
     }
   }

@@ -1,27 +1,15 @@
 ---
 templateKey: 'faq-page'
 path: /faq
-title: Frequently Asked Questions
+title: FAQ
 faq:
-  - question: I've been descriminated against with regard to my housing arrangments, what are my options?
-    answer: >
-      The Fair Housing Act estabilishes protected classes which make 
-      it illegal for landlords to descriminate against you. Learn more
-      about the protected classes and what they help to 
-  - question: Second question
-    answer: Answer to second question
+  heading: Frequently Asked Questions
+  description: >-
+    Below you will find the answers to the questions we receive most often. 
+    If you don't find the answer you're looking for please reach out to us.
+  faqs:
+  - question: Who Can File a Fair Housing Complaint?
+    answer: Literally anyone can file a complaint alleging discrimination- a person, a business, an organization, even someone associated with the victim can file a complaint if they were also harmed by the discriminatory housing practice.
+  - question: When Should I File a Fair Housing Complaint?
+    answer: A complainant [person alleging discrimination] should file a complaint within one year of the most recent discriminatory housing practice, at the latest. If the alleged violation occurred, for example, 366 days ago it would not be a timely violation eligible for filing. One can also file if the discrimination is currently ongoing, or is about to occur in the future.
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
-
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
-
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
-
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
-
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.

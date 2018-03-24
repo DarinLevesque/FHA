@@ -3,17 +3,5 @@ templateKey: 'about-page'
 path: /about
 title: About our values
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
-
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
-
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
-
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
-
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+## Our Mission & Purpose
+Fair Housing Advocates [FHA] is committed to ensuring that all protected class members are provided equal housing opportunity without regard to their race, color, national origin, religion, sex, familial status, or disability.  FHA seeks to assist any person exercise their housing rights for the purposes of protecting and establishing their fair housing opportunities.  To meet its mission, FHA is committed to providing fair housing related services through counseling, referral services, advocacy, education and outreach, to anyone involved in the housing process.  FHA is authorized to file fair housing complaints to affirmatively further fair housing rights.
