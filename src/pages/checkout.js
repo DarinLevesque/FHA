@@ -43,7 +43,7 @@ componentDidMount() {
                 fetch(`${LAMBDA_ENDPOINT}purchase`, {
                     method: 'POST',
                     body: JSON.stringify({
-                      token.id,
+                      token,
                       amount,
                       idempotency_key: uuid()
                     }),

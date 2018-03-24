@@ -1053,7 +1053,7 @@ babel-polyfill@^6.20.0, babel-polyfill@^6.23.0, babel-polyfill@^6.26.0:
     core-js "^2.5.0"
     regenerator-runtime "^0.10.5"
 
-babel-preset-env@^1.6.0:
+babel-preset-env@^1.6.0, babel-preset-env@^1.6.1:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/babel-preset-env/-/babel-preset-env-1.6.1.tgz#a18b564cc9b9afdf4aae57ae3c1b0d99188e6f48"
   dependencies:
@@ -6941,16 +6941,16 @@ netlify-identity-widget@^1.4.11:
   version "1.4.11"
   resolved "https://registry.yarnpkg.com/netlify-identity-widget/-/netlify-identity-widget-1.4.11.tgz#27fbea5302cd1a360547570ddc855fd0cb528e5a"
 
-netlify-lambda@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/netlify-lambda/-/netlify-lambda-0.2.0.tgz#37bb80febff21938908f02e14b9f378624b3b68e"
+netlify-lambda@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/netlify-lambda/-/netlify-lambda-0.3.0.tgz#206996c9f0f8b9d6f2c2559e9f11337fd9f829dd"
   dependencies:
     babel-core "^6.26.0"
     babel-loader "^7.1.2"
     babel-plugin-transform-class-properties "^6.24.1"
     babel-plugin-transform-object-assign "^6.22.0"
     babel-plugin-transform-object-rest-spread "^6.26.0"
-    babel-preset-es2015 "^6.24.1"
+    babel-preset-env "^1.6.1"
     base-64 "^0.1.0"
     body-parser "^1.18.2"
     commander "^2.11.0"
