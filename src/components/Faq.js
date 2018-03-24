@@ -11,7 +11,7 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 export default ({ data }) => (
   <div className="columns">
   <Accordion>
-    {data.map(faq => (
+    {data.map(faqs => (
         <AccordionItem>
             <AccordionItemTitle>
                 <h3>{faq.question}</h3>
