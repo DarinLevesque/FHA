@@ -10604,11 +10604,10 @@ strip-outer@^1.0.0:
   dependencies:
     escape-string-regexp "^1.0.2"
 
-stripe@^5.5.0:
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/stripe/-/stripe-5.5.0.tgz#df5fefae440531ae2a0051f91c7837457ba06717"
+stripe@^5.6.0:
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/stripe/-/stripe-5.6.0.tgz#232f1eb1e8bd10288c348aa5b1bf51068929e66c"
   dependencies:
-    bluebird "^3.5.0"
     lodash.isplainobject "^4.0.6"
     qs "~6.5.1"
     safe-buffer "^5.1.1"
