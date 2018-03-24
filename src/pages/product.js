@@ -1,22 +1,27 @@
 import React from 'react';
+import StripeCheckout from 'react-stripe-checkout';
 
+export default class Purchase extends React.Component {
+  onToken = (token) => {
+    fetch('/.netlify/functions/purchase/', {
+      method: 'POST',
+      body: JSON.stringify(token),
+    }).then(response => {
+      response.json().then(data => {
+        alert(`We are in business, ${data.email}`);
+      });
+    });
+  }
 
-export default class Product extends React.Component {
-render() {
+  // ...
+
+  render() {
     return (
-        <div>
-            <form action="/.netlify/functions/startCharge/" method="POST">
-            <script
-                src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                data-key="pk_test_bwDxe6R8crYZebNVmjYu9Dxr"
-                data-image="images/marketplace.png"
-                data-name="Emma's Farm CSA"
-                data-description="Subscription for 1 weekly box"
-                data-amount="2000"
-                data-label="Sign Up Now for $20/month!">
-            </script>
-            </form>
-        </div>
-    );
-}
+      // ...
+      <StripeCheckout
+        token={this.onToken}
+        stripeKey="pk_test_bwDxe6R8crYZebNVmjYu9Dxr"
+      />
+    )
+  }
 }

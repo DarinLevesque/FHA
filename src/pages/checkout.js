@@ -3,20 +3,71 @@ import React from 'react';
 import './checkout.css';
 
 export default class Checkout extends React.Component {
+    constructor(props) {
+        const amount = 1000;
+        const $messageBox = document.getElementById('messageBox');
+        const $button = document.querySelector('button');
+
+        function resetButtonText() {
+        $button.innerHTML = 'Click to Buy! <strong>$10</strong>';
+        }
+
+        const handler = StripeCheckout.configure({
+        key: STRIPE_PUBLISHABLE_KEY,
+        image: 'https://stripe.com/img/documentation/checkout/marketplace.png',
+        locale: 'auto',
+        closed: function () {
+            resetButtonText();
+        },
+        token: function(token) {
+
+            fetch(`${LAMBDA_ENDPOINT}purchase`, {
+            method: 'POST',
+            body: JSON.stringify({
+                token,
+                amount,
+                idempotency_key: uuid()
+            }),
+            headers: new Headers({
+                'Content-Type': 'application/json'
+            })
+            })
+            .then(res => res.json())
+            .catch(error => console.error(error))
+            .then(response => {
+
+            resetButtonText();
+
+            let message = typeof response === 'object' && response.status === 'succeeded'
+                ? 'Charge was successful!'
+                : 'Charge failed.'
+            $messageBox.querySelector('h2').innerHTML = message;
+
+            console.log(response);
+            });
+        }
+        });
+
+        $button.addEventListener('click', () => {
+
+        setTimeout(() => {
+            $button.innerHTML = 'Waiting for response...';
+        }, 500);
+
+        handler.open({
+            amount,
+            name: 'Test Shop',
+            description: 'A Fantastic New Widget'
+        });
+        });
+    }
  render() {
     return (
         <div>
-            <form action="https://new.fairhousingact.org/.netlify/functions/purchase" method="POST">
-            <script
-                src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                data-key="pk_test_bwDxe6R8crYZebNVmjYu9Dxr"
-                data-image="/public/favicon/home_white_192x192.png"
-                data-name="FHA buy"
-                data-description="Subscription for 1 weekly box"
-                data-amount="2000"
-                data-label="Sign Up Now for $20/month!">
-            </script>
-            </form>
+        <button>Click to Buy! <strong>$10</strong></button>
+        <div id="messageBox">
+            <h2></h2>
+        </div>
         </div>
     );
 }

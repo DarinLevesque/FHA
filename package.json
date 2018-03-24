@@ -29,6 +29,7 @@
     "react-burger-menu": "^2.3.0",
     "react-dom": "^16.2.0",
     "react-helmet": "^5.2.0",
+    "react-stripe-checkout": "^2.6.3",
     "stripe": "^5.6.0",
     "uuid": "^3.2.1"
   },
