@@ -23,6 +23,7 @@
     "gatsby-transformer-remark": "^1.7.33",
     "gatsby-transformer-sharp": "^1.6.21",
     "global": "^4.3.2",
+    "jshint": "^2.9.5",
     "netlify-lambda": "^0.3.0",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
