@@ -12,7 +12,7 @@ export default ({ data }) => (
   <div className="columns">
   <Accordion>
     {data.map(faq => (
-        <AccordionItem>
+        <AccordionItem key={faq.id}>
             <AccordionItemTitle>
                 <h3>{faq.question}</h3>
             </AccordionItemTitle>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { scaleRotate as Menu } from 'react-burger-menu'
+import { scaleRotate as Menu } from 'react-burger-menu';
 import Link from 'gatsby-link';
 
 import github from '../img/github-icon.svg';
@@ -10,7 +10,13 @@ const styles = {
     margin: '0 auto',
     padding: '2em 1em',
     color: 'rgba(0, 0, 0, 0.4)',
-    boxshadow: 'inset 0 -1px rgba(0, 0, 0, 0.2)'
+    'box-shadow': 'inset 0 -1px rgba(0, 0, 0, 0.2)'
+  },
+  Link: {
+    padding: '1em',
+    "text-transform": 'uppercase',
+    transition: 'background 0.3s, box-shadow 0.3s',
+    'box-shadow': 'inset 0 -1px rgba(0, 0, 0, 0.2)'
   },
   bmBurgerButton: {
     position: 'fixed',
@@ -47,7 +53,6 @@ const styles = {
 }
 
 const Navbar = () => (
-  <div>
     <Menu 
     pageWrapId={ "page-wrap" }
     outerContainerId={ "outer-container" }
@@ -66,7 +71,6 @@ const Navbar = () => (
         Property Services
       </Link>
     </Menu>
-  </div>
 )
 
 

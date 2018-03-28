@@ -31,6 +31,7 @@ module.exports = {
       ],
     },
   },
+  `gatsby-plugin-stripe-elements`,
     'gatsby-plugin-sass',
     {
       resolve: 'gatsby-source-filesystem',
