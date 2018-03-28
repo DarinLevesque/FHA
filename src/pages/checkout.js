@@ -1,9 +1,11 @@
 import React from 'react';
+import StripeCheckout from 'react-stripe-checkout';
 
 import './checkout.css';
 
 export default class Checkout extends React.Component {
     constructor(props) {
+        super();
         const amount = 1000;
         const $messageBox = document.getElementById('messageBox');
         const $button = document.querySelector('button');
@@ -13,7 +15,7 @@ export default class Checkout extends React.Component {
         }
 
         const handler = StripeCheckout.configure({
-        key: STRIPE_PUBLISHABLE_KEY,
+        key: "pk_test_bwDxe6R8crYZebNVmjYu9Dxr",
         image: 'https://stripe.com/img/documentation/checkout/marketplace.png',
         locale: 'auto',
         closed: function () {
