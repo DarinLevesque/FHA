@@ -1,5 +1,5 @@
 import React from 'react';
-import StripeCheckout from 'react-stripe-checkout';
+import StripeCheckout from 'gatsby-plugin-stripe-checkout';
 
 export default class Purchase extends React.Component {
   onToken = (token) => {
