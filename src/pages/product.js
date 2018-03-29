@@ -3,7 +3,7 @@ import StripeCheckout from 'react-stripe-checkout';
 
 export default class Purchase extends React.Component {
   onToken = (token) => {
-    fetch('/.netlify/functions/purchase/', {
+    fetch('/.netlify/functions/createCharge/', {
       method: 'POST',
       body: JSON.stringify(token),
     }).then(response => {
