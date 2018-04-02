@@ -2,9 +2,6 @@ import React from 'react';
 import { scaleRotate as Menu } from 'react-burger-menu';
 import Link from 'gatsby-link';
 
-import github from '../img/github-icon.svg';
-import logo from '../img/logo.svg';
-
 const styles = {
   scaleRotate: {
     margin: '0 auto',
