@@ -1,20 +1,9 @@
 import React from 'react';
-import { scaleRotate as Menu } from 'react-burger-menu';
-import Link from 'gatsby-link';
+import { slide as Menu } from 'react-burger-menu';
+import { Nav, NavItem, NavDropdown, MenuItem, Glyphicon } from 'react-bootstrap';
+import Link, { navigateTo } from 'gatsby-link';
 
 const styles = {
-  scaleRotate: {
-    margin: '0 auto',
-    padding: '2em 1em',
-    color: 'rgba(0, 0, 0, 0.4)',
-    'box-shadow': 'inset 0 -1px rgba(0, 0, 0, 0.2)'
-  },
-  Link: {
-    padding: '1em',
-    "text-transform": 'uppercase',
-    transition: 'background 0.3s, box-shadow 0.3s',
-    'box-shadow': 'inset 0 -1px rgba(0, 0, 0, 0.2)'
-  },
   bmBurgerButton: {
     position: 'fixed',
     width: '36px',
@@ -49,24 +38,30 @@ const styles = {
   }
 }
 
+function handleSelect(selectedKey) {
+  event.preventDefault();
+}
+
 const Navbar = () => (
-    <Menu 
-    pageWrapId={ "page-wrap" }
-    outerContainerId={ "outer-container" }
-    styles={ styles }
-  >
-      <Link id="about" className="menu-item" to="/about">
-        About
-      </Link>
-      <Link id="blog" className="menu-item" to="/blog">
-        Blog
-      </Link>
-      <Link id="faq" className="menu-item" to="/faq">
-        FAQ
-      </Link>
-      <Link id="property-services" className="menu-item" to="/property-services">
-        Property Services
-      </Link>
+    <Menu styles={ styles }>
+      <Nav bsStyle="pills" stacked activeKey={1} onSelect={handleSelect}>
+      <NavItem eventKey={1} onClick={ () => navigateTo('/')}>
+        <Glyphicon glyph="home" />Home
+      </NavItem>  
+      <NavItem eventKey={2} onClick={ () => navigateTo('/about')}>
+          About
+      </NavItem>
+        <NavItem eventKey={3} onClick={ () => navigateTo('/blog')} >
+          Blog
+      </NavItem>
+        <NavItem eventKey={4} onClick={ () => navigateTo('/faq')}>
+          FAQ
+      </NavItem>
+      <NavDropdown eventKey="5" title="Property Services" id="nav-dropdown">
+        <MenuItem eventKey="5.1" onClick={ () => navigateTo('/property-services/hoa')}>For Homeowners Assoc.</MenuItem>
+        <MenuItem eventKey="5.2" onClick={ () => navigateTo('/property-services/rentals')}>For Rental Properties</MenuItem>
+      </NavDropdown>
+      </Nav>
     </Menu>
 )
 

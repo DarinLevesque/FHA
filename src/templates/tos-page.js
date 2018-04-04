@@ -20,7 +20,7 @@ export const TOSPageTemplate = ({ title, content, contentComponent }) => {
         </div>
       </div>
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-md-12">
             <div className="section">
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
