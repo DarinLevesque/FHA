@@ -17,7 +17,7 @@ export default class IndexPage extends React.Component {
         <Carousel.Item>
           <img width={1420} height={500} alt="900x500" src={carousel1} />
           <Carousel.Caption>
-            <h3>First slide label</h3>
+            <h3>Fair Housing Advocates, Inc.</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -38,7 +38,7 @@ export default class IndexPage extends React.Component {
       </Carousel>
         <div className="container">
           <div className="content">
-            <h1 className="has-text-weight-bold is-size-2">Index</h1>
+            <h1 className="has-text-weight-bold is-size-2">What we do</h1>
           </div>
           <Grid>
             <Row className="show-grid">
