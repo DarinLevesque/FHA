@@ -4097,15 +4097,6 @@ gatsby-plugin-stripe-checkout@^1.0.4:
     babel-runtime "^6.26.0"
     cross-env "^5.1.4"
 
-gatsby-plugin-stripe-elements@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-stripe-elements/-/gatsby-plugin-stripe-elements-1.0.3.tgz#8c8266772338ea23c32e843dbadeab3b11043311"
-  dependencies:
-    babel-cli "^6.26.0"
-    babel-preset-react "^6.24.1"
-    babel-runtime "^6.26.0"
-    cross-env "^5.1.4"
-
 gatsby-react-router-scroll@^1.0.13:
   version "1.0.13"
   resolved "https://registry.yarnpkg.com/gatsby-react-router-scroll/-/gatsby-react-router-scroll-1.0.13.tgz#d1cfd43c334497ad174ae9409c24bb5d4dcda3aa"
@@ -8683,7 +8674,7 @@ react-dom@^15.6.0:
     object-assign "^4.1.0"
     prop-types "^15.5.10"
 
-react-dom@^16.0.0, react-dom@^16.2.0:
+react-dom@^16.0.0:
   version "16.2.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.2.0.tgz#69003178601c0ca19b709b33a83369fe6124c044"
   dependencies:
