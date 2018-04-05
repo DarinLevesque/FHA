@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import { Grid, Row, Col, Carousel, CarouselItem, CarouselCaption } from 'react-bootstrap';
+import { Grid, Row, Col, Carousel, CarouselItem, CarouselCaption, Image } from 'react-bootstrap';
 
 import carousel1 from '../img/house-window-chair-verandah.jpg';
 import carousel2 from '../img/brickbuilding.jpg';
@@ -15,21 +15,21 @@ export default class IndexPage extends React.Component {
       <section className="section">
       <Carousel>
         <Carousel.Item>
-          <img width={1420} height={500} alt="900x500" src={carousel1} />
+          <Image src={carousel1} responsive />
           <Carousel.Caption>
             <h3>Fair Housing Advocates, Inc.</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img width={1420} height={500} alt="900x500" src={carousel2} />
+          <Image src={carousel2} responsive />
           <Carousel.Caption>
             <h3>Second slide label</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img width={1420} height={500} alt="900x500" src={carousel3} />
+          <Image src={carousel3} responsive />
           <Carousel.Caption>
             <h3>Third slide label</h3>
             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
