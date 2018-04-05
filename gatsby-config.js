@@ -63,6 +63,7 @@ module.exports = {
       ],
     },
   },
+  `gatsby-plugin-stripe-checkout`,
     `gatsby-plugin-glamor`,
     'gatsby-transformer-sharp',
     {
