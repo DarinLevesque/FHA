@@ -2,11 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import Link from 'gatsby-link';
-import StripeProvider from '../components/Stripe/Provider';
-import injectStripe from '../components/Stripe/inject';
-import Elements from '../components/Stripe/Elements';
-import Element from '../components/Stripe/Element';
-import PaymentRequestButtonElement from '../components/Stripe/PaymentRequestButtonElement';
 
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -14,26 +9,6 @@ import './all.sass';
 
 import github from '../img/github-icon.svg';
 import logo from '../img/logo.svg';
-
-const CardElement = Element('card', {sourceType: 'card'});
-const CardNumberElement = Element('cardNumber', {sourceType: 'card'});
-const CardExpiryElement = Element('cardExpiry');
-const CardCVCElement = Element('cardCvc');
-const PostalCodeElement = Element('postalCode');
-
-export {
-  StripeProvider,
-  injectStripe,
-  Elements,
-  CardElement,
-  CardNumberElement,
-  CardExpiryElement,
-  CardCVCElement,
-  PostalCodeElement,
-  PaymentRequestButtonElement,
-};
-
-
 
 const TemplateWrapper = ({ children }) => (
   <div>
