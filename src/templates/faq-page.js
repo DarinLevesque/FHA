@@ -30,6 +30,8 @@ export const FAQPageTemplate = ({
                 {faq.heading}
               </h2>
               <p className="is-size-5">{faq.description}</p>
+            </div>
+            <div className="section">
               <Faq data={faq.faqs} />
             </div>
           </div>
