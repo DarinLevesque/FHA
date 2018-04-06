@@ -7,8 +7,8 @@ module.exports = {
     {
     resolve: `gatsby-plugin-manifest`,
     options: {
-      name: "GatsbyJS",
-      short_name: "GatsbyJS",
+      name: "Fair Housing Advocates, Inc.",
+      short_name: "FHA Inc.",
       start_url: "/",
       background_color: "#f7f0eb",
       theme_color: "#228844",
@@ -63,7 +63,7 @@ module.exports = {
       ],
     },
   },
-  `gatsby-plugin-stripe-checkout`,
+    `gatsby-plugin-stripe-checkout`,
     `gatsby-plugin-glamor`,
     'gatsby-transformer-sharp',
     {
@@ -76,6 +76,7 @@ module.exports = {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
+     
       },
     },
     {
