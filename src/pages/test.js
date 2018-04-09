@@ -34,18 +34,21 @@ export default class Cards extends React.Component {
         image: "https://stripe.com/img/documentation/checkout/marketplace.png",
         locale: "auto",
         token: (token, args) => {
-          fetch("https://stripe--fairhousingact.netlify.com/purchase", {
-            method: "POST",
-            body: JSON.stringify({
-              token,
-              args,
-              cart: this.props.cart,
-              charge: {
-                amount: "1000",
-                currency: "USD"
-              }
-            })
-          })
+          fetch(
+            "https://stripe--fairhousingact.netlify.com/.netlify/functions/purchase",
+            {
+              method: "POST",
+              body: JSON.stringify({
+                token,
+                args,
+                cart: this.props.cart,
+                charge: {
+                  amount: "1000",
+                  currency: "USD"
+                }
+              })
+            }
+          )
             .then(response => response.json())
             .then(json => {
               this.props.removeAllFromCart();
@@ -89,7 +92,7 @@ export default class Cards extends React.Component {
         {loading || stripeLoading ? (
           <p>loading..</p>
         ) : (
-          <button onClick={this.onStripeUpdate}>Add CC</button>
+          <button onClick={this.onStripeUpdate}>Purchase</button>
         )}
       </div>
     );
