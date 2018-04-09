@@ -1,21 +1,20 @@
-require('dotenv').config();
+require("dotenv").config();
 
-const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
+const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 
 const statusCode = 200;
 const headers = {
-  "Access-Control-Allow-Origin" : no-cors,
+  "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Headers": "Content-Type"
 };
 
 exports.handler = function(event, context, callback) {
-
   //-- We only care to do anything if this is our POST request.
-  if(event.httpMethod !== 'POST' || !event.body) {
+  if (event.httpMethod !== "POST" || !event.body) {
     callback(null, {
       statusCode,
       headers,
-      body: ''
+      body: ""
     });
   }
 
@@ -23,18 +22,13 @@ exports.handler = function(event, context, callback) {
   const data = JSON.parse(event.body);
 
   //-- Make sure we have all required data. Otherwise, escape.
-  if(
-    !data.token ||
-    !data.amount ||
-    !data.idempotency_key
-  ) {
-
-    console.error('Required information is missing.');
+  if (!data.token || !data.amount || !data.idempotency_key) {
+    console.error("Required information is missing.");
 
     callback(null, {
       statusCode,
       headers,
-      body: JSON.stringify({status: 'missing-information'})
+      body: JSON.stringify({ status: "missing-information" })
     });
 
     return;
@@ -42,7 +36,7 @@ exports.handler = function(event, context, callback) {
 
   stripe.charges.create(
     {
-      currency: 'usd',
+      currency: "usd",
       amount: data.amount,
       source: data.token.id,
       receipt_email: data.token.email,
@@ -50,21 +44,22 @@ exports.handler = function(event, context, callback) {
     },
     {
       idempotency_key: data.idempotency_key
-    }, (err, charge) => {
-
-      if(err !== null) {
+    },
+    (err, charge) => {
+      if (err !== null) {
         console.log(err);
       }
 
-      let status = (charge === null || charge.status !== 'succeeded')
-        ? 'failed'
-        : charge.status;
+      let status =
+        charge === null || charge.status !== "succeeded"
+          ? "failed"
+          : charge.status;
 
       callback(null, {
         statusCode,
         headers,
-        body: JSON.stringify({status})
+        body: JSON.stringify({ status })
       });
     }
   );
-}
+};

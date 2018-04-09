@@ -34,7 +34,7 @@ export default class Cards extends React.Component {
         image: "https://stripe.com/img/documentation/checkout/marketplace.png",
         locale: "auto",
         token: (token, args) => {
-          fetch("https://new.fairhousingact.org/purchase.js", {
+          fetch("https://stripe--fairhousingact.netlify.com/purchase.js", {
             method: "POST",
             body: JSON.stringify({
               token,
