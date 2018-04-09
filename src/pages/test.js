@@ -33,12 +33,27 @@ export default class Cards extends React.Component {
         key: "pk_test_bwDxe6R8crYZebNVmjYu9Dxr",
         image: "https://stripe.com/img/documentation/checkout/marketplace.png",
         locale: "auto",
-        token: token => {
-          this.setState({ loading: true });
-          // use fetch or some other AJAX library here if you dont want to use axios
-          axios.post("/your-server-side-code", {
-            stripeToken: token.id
-          });
+        token: (token, args) => {
+          fetch("https://new.fairhousingact.org/purchase.js", {
+            method: "POST",
+            body: JSON.stringify({
+              token,
+              args,
+              cart: this.props.cart,
+              charge: {
+                amount: "1000",
+                currency: "USD"
+              }
+            })
+          })
+            .then(response => response.json())
+            .then(json => {
+              this.props.removeAllFromCart();
+              return console.log(json);
+            })
+            .catch(error => {
+              console.log("Fetch failed:" + error);
+            });
         }
       });
 
@@ -58,9 +73,10 @@ export default class Cards extends React.Component {
 
   onStripeUpdate(e) {
     this.stripeHandler.open({
-      name: "test",
-      description: "widget",
+      name: "Fair Housing Advocates, Inc.",
+      description: "Property Services",
       panelLabel: "Update Credit Card",
+      zipCode: true,
       allowRememberMe: false
     });
     e.preventDefault();
