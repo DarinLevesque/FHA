@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 
 export default class Cards extends React.Component {
   constructor(props) {
@@ -79,3 +79,14 @@ export default class Cards extends React.Component {
     );
   }
 }
+
+export const testPageQuery = graphql`
+  query TestQuery($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      html
+      frontmatter {
+        title
+      }
+    }
+  }
+`;
