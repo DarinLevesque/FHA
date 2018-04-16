@@ -1,26 +1,17 @@
-import React from 'react';
-import {
-    Accordion,
-    AccordionItem,
-    AccordionItemTitle,
-    AccordionItemBody,
-  } from 'react-accessible-accordion';
-  
-import 'react-accessible-accordion/dist/fancy-example.css';
+import React from "react";
+import { Panel, PanelGroup, Accordion } from "react-bootstrap";
 
 export default ({ data }) => (
   <div className="columns">
-  <Accordion>
-    {data.map(faq => (
-        <AccordionItem key={faq.id}>
-            <AccordionItemTitle>
-                <h3>{faq.question}</h3>
-            </AccordionItemTitle>
-            <AccordionItemBody>
-                <p>{faq.answer}</p>
-            </AccordionItemBody>
-        </AccordionItem>
-    ))}
-    </Accordion>
+    <PanelGroup accordion id="accordion-example">
+      {data.map(faq => (
+        <Panel eventKey={faq.id} key={faq.id}>
+          <Panel.Heading>
+            <Panel.Title toggle>{faq.question}</Panel.Title>
+          </Panel.Heading>
+          <Panel.Body collapsible>{faq.answer}</Panel.Body>
+        </Panel>
+      ))}
+    </PanelGroup>
   </div>
-)
+);

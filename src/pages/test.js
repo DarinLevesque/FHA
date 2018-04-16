@@ -41,7 +41,6 @@ export default class Cards extends React.Component {
               body: JSON.stringify({
                 token,
                 args,
-                cart: this.props.cart,
                 charge: {
                   amount: "1000",
                   currency: "USD"
@@ -98,14 +97,3 @@ export default class Cards extends React.Component {
     );
   }
 }
-
-export const testPageQuery = graphql`
-  query TestQuery($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      html
-      frontmatter {
-        title
-      }
-    }
-  }
-`;

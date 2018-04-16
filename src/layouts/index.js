@@ -14,8 +14,8 @@ import logo from "../img/logo.svg";
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet>
-      <html lang="en" />
       <title>Fair Housing Advocates, Inc.</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link
         rel="stylesheet"
         href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -27,6 +27,10 @@ const TemplateWrapper = ({ children }) => (
         href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
         integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
         crossorigin="anonymous"
+      />
+      <script
+        defer
+        src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"
       />
     </Helmet>
     <Navbar />

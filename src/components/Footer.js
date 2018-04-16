@@ -1,10 +1,10 @@
 import React from "react";
-import Link, { navigateTo } from "gatsby-link";
+import Link, {navigateTo} from "gatsby-link";
 
 const styles = {};
 
 const Footer = () => (
-  <footer styles={styles} className="page-footer font-small indigo pt-0">
+  <footer styles={styles} className="page-footer footer font-small indigo pt-0">
     <div className="container">
       <div className="row pt-5 mb-3 text-center d-flex justify-content-center">
         <div className="col-md-2 mb-3">
@@ -33,36 +33,36 @@ const Footer = () => (
           </h6>
         </div>
       </div>
-      <hr className="rgbawhitelight" />
+      <hr className="rgbawhitelight"/>
       <div className="row d-flex text-center justify-content-center mb-md-0 mb-4">
         <div className="col-md-8 col-12 mt-5">
           <p>
-            Fair Housing Advocates, Inc provides industry leading education and
-            resources in regard to Fair Housing Act laws and regulations.
+            Fair Housing Advocates, Inc provides industry leading education and resources in
+            regard to Fair Housing Act laws and regulations.
           </p>
         </div>
       </div>
-      <hr className="clearfix d-md-none rgbawhitelight" />
+      <hr className="clearfix d-md-none rgbawhitelight"/>
       <div className="row pb-3">
         <div className="col-md-12">
           <div className="mb-5 flex-center">
             <a className="fb-ic">
-              <i className="fa fa-facebook fa-lg white-text mr-md-4"> </i>
+              <i className="fa fa-facebook fa-lg white-text mr-md-4"></i>
             </a>
             <a className="tw-ic">
-              <i className="fa fa-twitter fa-lg white-text mr-md-4"> </i>
+              <i className="fa fa-twitter fa-lg white-text mr-md-4"></i>
             </a>
             <a className="gplus-ic">
-              <i className="fa fa-google-plus fa-lg white-text mr-md-4"> </i>
+              <i className="fa fa-google-plus fa-lg white-text mr-md-4"></i>
             </a>
             <a className="li-ic">
-              <i className="fa fa-linkedin fa-lg white-text mr-md-4"> </i>
+              <i className="fa fa-linkedin fa-lg white-text mr-md-4"></i>
             </a>
             <a className="ins-ic">
-              <i className="fa fa-instagram fa-lg white-text mr-md-4"> </i>
+              <i className="fa fa-instagram fa-lg white-text mr-md-4"></i>
             </a>
             <a className="pin-ic">
-              <i className="fa fa-pinterest fa-lg white-text"> </i>
+              <i className="fa fa-pinterest fa-lg white-text"></i>
             </a>
           </div>
         </div>
@@ -70,7 +70,9 @@ const Footer = () => (
     </div>
     <div className="footer-copyright py-3 text-center">
       © 2018 Copyright:
-      <a href="https://fairhousingact.org"> Fair Housing Advocates, Inc. </a>
+      <a href="https://fairhousingact.org">
+        Fair Housing Advocates, Inc.
+      </a>
     </div>
   </footer>
 );
