@@ -1,12 +1,5 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
-import {
-  Nav,
-  NavItem,
-  NavDropdown,
-  MenuItem,
-  Glyphicon
-} from "react-bootstrap";
 import Link, { navigateTo } from "gatsby-link";
 
 const styles = {
@@ -102,10 +95,10 @@ class Navbar extends React.Component {
           </p>
           <ul className="menu-list">
             <li>
-              <a>Homeowners Associations</a>
+              <Link to="/property-services/hoa">Homeowners Associations</Link>
             </li>
             <li>
-              <a>Rental Properties</a>
+              <Link to="/property-services/rentals">Rental Properties</Link>
             </li>
           </ul>
         </aside>
