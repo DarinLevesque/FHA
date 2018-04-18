@@ -1,7 +1,7 @@
 ---
 templateKey: 'property-services-page'
 path: /rentals
-title: 'Property Services for Rentals
+title: Property Services for Rentals
 ---
 
 ## Fair Housing Property Pro: For Rental Communities
