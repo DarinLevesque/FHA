@@ -9,12 +9,12 @@ const Footer = () => (
       <div className="row pt-5 mb-3 text-center d-flex justify-content-center">
         <div className="col-md-2 mb-3">
           <h6 className="text-uppercase font-weight-bold">
-            <a href="#!">About us</a>
+            <Link to="/about">About us</Link>
           </h6>
         </div>
         <div className="col-md-2 mb-3">
           <h6 className="text-uppercase font-weight-bold">
-            <a href="#!">Products</a>
+            <Link to="/property-services">Property Services</Link>
           </h6>
         </div>
         <div className="col-md-2 mb-3">
@@ -29,7 +29,7 @@ const Footer = () => (
         </div>
         <div className="col-md-2 mb-3">
           <h6 className="text-uppercase font-weight-bold">
-            <a href="#!">Contact</a>
+            <Link to="/contact">Contact</Link>
           </h6>
         </div>
       </div>
