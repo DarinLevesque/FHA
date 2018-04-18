@@ -28,9 +28,13 @@ const TemplateWrapper = ({ children }) => (
         integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
         crossorigin="anonymous"
       />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css"
+      />
       <script
         defer
-        src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"
+        src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
       />
     </Helmet>
     <Navbar />

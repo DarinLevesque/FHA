@@ -5,29 +5,29 @@ import logo from "../img/fha-type-white.png";
 const styles = {};
 
 const Header = () => (
-  <section class="hero is-primary is-small">
-    <div class="hero-head">
-      <nav class="navbar">
-        <div class="container">
-          <div class="navbar-brand">
-            <a class="navbar-item">
+  <section className="hero is-primary is-small">
+    <div className="hero-head">
+      <nav className="navbar">
+        <div className="container">
+          <div className="navbar-brand">
+            <a className="navbar-item">
               <img src={logo} alt="Logo" />
             </a>
           </div>
         </div>
       </nav>
     </div>
-    <div class="hero-body">
-      <div class="container has-text-centered">
-        <h1 class="title">Title</h1>
-        <h2 class="subtitle">Subtitle</h2>
+    <div className="hero-body">
+      <div className="container has-text-centered">
+        <h1 className="title">Title</h1>
+        <h2 className="subtitle">Subtitle</h2>
       </div>
     </div>
-    <div class="hero-foot">
-      <nav class="tabs">
-        <div class="container">
+    <div className="hero-foot">
+      <nav className="tabs">
+        <div className="container">
           <ul>
-            <li class="is-active">
+            <li className="is-active">
               <a>Overview</a>
             </li>
             <li>

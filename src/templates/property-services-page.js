@@ -18,12 +18,12 @@ export const PropServicesPageTemplate = ({
               Property Services<br />
               <small>Our Mission & Purpose</small>
             </h1>
-            <nav class="breadcrumb" aria-label="breadcrumbs">
+            <nav className="breadcrumb" aria-label="breadcrumbs">
               <ul>
                 <li>
                   <Link to="/">Home</Link>
                 </li>
-                <li class="is-active">
+                <li className="is-active">
                   <Link to="/property-services" aria-current="page">
                     PropServices
                   </Link>
@@ -33,7 +33,7 @@ export const PropServicesPageTemplate = ({
           </div>
         </div>
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-12">
             <div className="section">
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}

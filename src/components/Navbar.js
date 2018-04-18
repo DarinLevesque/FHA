@@ -41,44 +41,77 @@ const styles = {
   },
   bmOverlay: {
     background: "rgba(0, 0, 0, 0.3)"
+  },
+  menuList: {
+    color: "#72b7c7"
   }
 };
 
-function handleSelect(selectedKey) {
-  event.preventDefault();
-}
+class Navbar extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      menuOpen: false
+    };
+  }
 
-const Navbar = () => (
-  <Menu right styles={styles} className="is-hidden-desktop">
-    <Nav bsStyle="pills" stacked activeKey={1} onSelect={handleSelect}>
-      <NavItem eventKey={1} onClick={() => navigateTo("/")}>
-        <Glyphicon glyph="home" /> Home
-      </NavItem>
-      <NavItem eventKey={2} onClick={() => navigateTo("/about")}>
-        About
-      </NavItem>
-      <NavItem eventKey={3} onClick={() => navigateTo("/blog")}>
-        Blog
-      </NavItem>
-      <NavItem eventKey={4} onClick={() => navigateTo("/faq")}>
-        FAQ
-      </NavItem>
-      <NavDropdown eventKey="5" title="Property Services" id="nav-dropdown">
-        <MenuItem
-          eventKey="5.1"
-          onClick={() => navigateTo("/property-services/hoa")}
-        >
-          For Homeowners Assoc.
-        </MenuItem>
-        <MenuItem
-          eventKey="5.2"
-          onClick={() => navigateTo("/property-services/rentals")}
-        >
-          For Rental Properties
-        </MenuItem>
-      </NavDropdown>
-    </Nav>
-  </Menu>
-);
+  // This keeps your state in sync with the opening/closing of the menu
+  // via the default means, e.g. clicking the X, pressing the ESC key etc.
+  handleStateChange(state) {
+    this.setState({ menuOpen: state.isOpen });
+  }
+
+  // This can be used to close the menu, e.g. when a user clicks a menu item
+  closeMenu() {
+    this.setState({ menuOpen: false });
+  }
+
+  // This can be used to toggle the menu, e.g. when using a custom icon
+  // Tip: You probably want to hide either/both default icons if using a custom icon
+  // See https://github.com/negomi/react-burger-menu#custom-icons
+  toggleMenu() {
+    this.setState({ menuOpen: !this.state.menuOpen });
+  }
+
+  render() {
+    return (
+      <Menu right styles={styles}>
+        <aside className="menu">
+          <ul className="menu-list">
+            <li>
+              <Link to="/" onClick={() => this.closeMenu()}>
+                <span className="icon">
+                  <i className="fas fa-home" />
+                </span>{" "}
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="/about" onClick={() => this.closeMenu()}>
+                About
+              </Link>
+            </li>
+            <li>
+              <Link to="/faq" onClick={() => this.closeMenu()}>
+                FAQ
+              </Link>
+            </li>
+          </ul>
+          <p className="menu-label" onClick={() => this.closeMenu()}>
+            Property Services
+          </p>
+          <ul className="menu-list">
+            <li>
+              <a>Homeowners Associations</a>
+            </li>
+            <li>
+              <a>Rental Properties</a>
+            </li>
+          </ul>
+        </aside>
+      </Menu>
+    );
+  }
+}
 
 export default Navbar;
