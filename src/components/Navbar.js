@@ -68,11 +68,16 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <Menu right styles={styles}>
+      <Menu
+        right
+        styles={styles}
+        isOpen={this.state.menuOpen}
+        onStateChange={state => this.handleStateChange(state)}
+      >
         <aside className="menu">
           <ul className="menu-list">
-            <li>
-              <Link to="/" onClick={() => this.closeMenu()}>
+            <li onClick={() => this.closeMenu()}>
+              <Link to="/">
                 <span className="icon">
                   <i className="fas fa-home" />
                 </span>{" "}

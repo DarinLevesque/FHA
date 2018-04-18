@@ -28,11 +28,11 @@ We provide the staff real-time access to our experts, while we work behind-the-s
 Our FHA experts know how to work with a property’s legal counsel to formulate affirmative defense strategies during any fair housing disputes.
 Why Do You Need Fair Housing Advocates?
 We know fair housing.
-Because we have successfully filed hundreds of fair housing complaints against housing providers just like you, across the country, compelling settlements resulting in millions of dollars of damages.  
+Because we have successfully filed hundreds of fair housing complaints against housing providers just like you, across the country, compelling settlements resulting in millions of dollars of damages.
 We know the formula.
 Because our fair housing IQ produces iron clad discrimination complaints HUD is motivated to investigate.
 We know the process.
-Because of our experience, we know the complete fair housing complaint process better than any organization offering conventional real estate management services.  
+Because of our experience, we know the complete fair housing complaint process better than any organization offering conventional real estate management services.
 We know the secrets.
 Because we have worked with investigators all over the country, we have usable intelligence not typically shared with the public about the fair housing investigation process.
 We know your fair housing rights.
@@ -99,7 +99,7 @@ FHA can evaluate your existing written Reasonable Accommodations, and Reasonable
 
 Once an acceptable review process is in place, your association would be eligible to participate in our “ESA Letter” analysis service.
 
-If your association does not have a formal accommodation or modification review process in place, FHA can develop one as a separate deliverable.  
+If your association does not have a formal accommodation or modification review process in place, FHA can develop one as a separate deliverable.
 Documents reviewed could include:
 i. Request for Reasonable Modification/Accommodation Verification Form
 ii. Authorization for Release of Information
@@ -160,7 +160,7 @@ FHA hosts at least one Fair Housing Training webinar and one Fair Housing Educat
 
 2.  Fair Housing Testing: An FHA Flagship Fair Housing Service
     Testing is a very important enforcement tool approved by HUD, and it is a very effective means of gathering evidence when FHA files a fair housing complaint on behalf of a consumer. Our testing evidence is always critical to compelling a settlement.
-    FHA can conduct testing upon your property and staff which most closely follows that recommended by HUD for fair housing organizations.  
+    FHA can conduct testing upon your property and staff which most closely follows that recommended by HUD for fair housing organizations.
     FHA would conduct such testing only as an educational tool, not an enforcement tool, to uncover any potentially violative fair housing behavior. Our findings will serve to provide the property with actionable feedback, so the property can make adjustments accordingly.
 
 This ‘real world’ testing of your staff is critical to understanding how Fair Housing training and education is actually being implemented where it counts.
@@ -181,7 +181,7 @@ i. Reasonable Accommodation request
 ii. Reasonable Modification request
 c) Familial Status Testing: Most Familial Status testing would not require a comparative since most discrimination is by treatment, or direct application of a discriminatory rule
 d) Protected Class Comparative Testing: Race, Color, National Origin, Religion, and Sex/Gender. FHA can design tests using the available methods listed above to uncover discriminatory treatment on the basis of a protected class by implementing comparative testing methodology.
-e) Staff Member Specific Testing: FHA can work with the community to identify a particular member of their staff as the focus of a fair housing test.  
+e) Staff Member Specific Testing: FHA can work with the community to identify a particular member of their staff as the focus of a fair housing test.
 f) Role Specific Testing: FHA can also customize testing methodologies to measure the fair housing aptitude of:
 i. Property leasing agents
 ii. Property managers
@@ -190,7 +190,7 @@ iv. RE Agents and those immediately ‘outside’ of the property staff
 \*This service is also offered for purchase separately. Contact FHA at info@fairhousingact.org to make arrangements.
 
 3.  ESA Letter Analysis: An FHA Flagship Fair Housing Service
-    Housing providers are getting inundated with requests to waive their pet rules to accommodate an Emotional Support Animal by a disabled applicant or resident.  
+    Housing providers are getting inundated with requests to waive their pet rules to accommodate an Emotional Support Animal by a disabled applicant or resident.
     HUD’s accommodation review process permits the housing provider to request “reliable documentation” from the disabled person which should verify the disability, and the need for their ESA as well as the requested accommodation. The housing provider is usually given an “ESA Letter,” or some other documentation [aka “doctor’s letter”] which needs to be properly evaluated.
 
 Each ESA Letter Analysis would consider the following elements:

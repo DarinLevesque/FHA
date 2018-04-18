@@ -1,5 +1,4 @@
 import React from "react";
-
 import logo from "../img/fha-type-white.png";
 
 const styles = {};

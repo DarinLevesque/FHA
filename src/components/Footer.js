@@ -6,7 +6,7 @@ const styles = {};
 const Footer = () => (
   <footer styles={styles} className="page-footer footer font-small indigo pt-0">
     <div className="container">
-      <div className="row pt-5 mb-3 text-center d-flex justify-content-center">
+      <div className="has-text-centered">
         <div className="col-md-2 mb-3">
           <h6 className="text-uppercase font-weight-bold">
             <Link to="/about">About us</Link>
@@ -34,8 +34,8 @@ const Footer = () => (
         </div>
       </div>
       <hr className="rgbawhitelight" />
-      <div className="row d-flex text-center justify-content-center mb-md-0 mb-4">
-        <div className="col-md-8 col-12 mt-5">
+      <div className="has-text-centered">
+        <div>
           <p>
             Fair Housing Advocates, Inc provides industry leading education and
             resources in regard to Fair Housing Act laws and regulations.
@@ -44,27 +44,27 @@ const Footer = () => (
       </div>
       <hr className="clearfix d-md-none rgbawhitelight" />
       <div className="row pb-3">
-        <div className="col-md-12">
-          <div className="mb-5 flex-center">
-            <a className="fb-ic">
-              <i className="fas fa-facebook fa-lg white-text mr-md-4" />
-            </a>
-            <a className="tw-ic">
-              <i className="fas fa-twitter fa-lg white-text mr-md-4" />
-            </a>
-            <a className="gplus-ic">
-              <i className="fas fa-google-plus fa-lg white-text mr-md-4" />
-            </a>
-            <a className="li-ic">
-              <i className="fas fa-linkedin fa-lg white-text mr-md-4" />
-            </a>
-            <a className="ins-ic">
-              <i className="fas fa-instagram fa-lg white-text mr-md-4" />
-            </a>
-            <a className="pin-ic">
-              <i className="fas fa-pinterest fa-lg white-text" />
-            </a>
-          </div>
+        <div className="has-text-centered is-mobile">
+          <a className="fb-ic">
+            <span className="icon">
+              <i className="fas fa-facebook fa-lg white-text" />
+            </span>
+          </a>
+          <a className="tw-ic">
+            <i className="fas fa-twitter fa-lg white-text" />
+          </a>
+          <a className="gplus-ic">
+            <i className="fas fa-google-plus fa-lg white-text" />
+          </a>
+          <a className="li-ic">
+            <i className="fas fa-linkedin fa-lg white-text" />
+          </a>
+          <a className="ins-ic">
+            <i className="fas fa-instagram fa-lg white-text" />
+          </a>
+          <a className="pin-ic">
+            <i className="fas fa-pinterest fa-lg white-text" />
+          </a>
         </div>
       </div>
     </div>

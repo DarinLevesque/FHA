@@ -6,8 +6,9 @@
   "dependencies": {
     "bulma": "^0.7.0",
     "bulma-accordion": "^1.0.1",
+    "bulma-carousel": "^1.1.0",
     "bulma-extensions": "^1.0.14",
-    "bulma-pricingtable": "^0.1.10",
+    "bulma-pricingtable": "^1.2.0",
     "card-react": "^1.2.7",
     "gatsby": "^1.9.250",
     "gatsby-cli": "^1.1.50",

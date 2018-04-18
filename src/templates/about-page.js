@@ -14,12 +14,12 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
               About<br />
               <small>Our Mission & Purpose</small>
             </h1>
-            <nav class="breadcrumb" aria-label="breadcrumbs">
+            <nav className="breadcrumb" aria-label="breadcrumbs">
               <ul>
                 <li>
                   <Link to="/">Home</Link>
                 </li>
-                <li class="is-active">
+                <li className="is-active">
                   <Link to="/about" aria-current="page">
                     About
                   </Link>
