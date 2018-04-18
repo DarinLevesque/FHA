@@ -75,35 +75,66 @@ class Navbar extends React.Component {
         onStateChange={state => this.handleStateChange(state)}
       >
         <aside className="menu">
-          <ul className="menu-list">
-            <li onClick={() => this.closeMenu()}>
-              <Link to="/">
+          <ul>
+            <li>
+              <Link to="/" onClick={() => this.closeMenu()}>
                 <span className="icon">
                   <i className="fas fa-home" />
-                </span>{" "}
+                </span>
                 Home
               </Link>
             </li>
             <li>
               <Link to="/about" onClick={() => this.closeMenu()}>
+                <span className="icon">
+                  <i className="fas fa-search" />
+                </span>
                 About
               </Link>
             </li>
             <li>
               <Link to="/faq" onClick={() => this.closeMenu()}>
+                <span className="icon">
+                  <i className="fas fa-question" />
+                </span>
                 FAQ
               </Link>
             </li>
           </ul>
-          <p className="menu-label" onClick={() => this.closeMenu()}>
-            Property Services
-          </p>
-          <ul className="menu-list">
+          <p className="menu-label">Property Services</p>
+          <ul>
             <li>
-              <Link to="/property-services/hoa">Homeowners Associations</Link>
+              <Link
+                to="/property-services/hoa"
+                onClick={() => this.closeMenu()}
+              >
+                <span className="icon">
+                  <i className="fas fa-warehouse" />
+                </span>
+                Homeowner Assoc.
+              </Link>
             </li>
             <li>
-              <Link to="/property-services/rentals">Rental Properties</Link>
+              <Link
+                to="/property-services/rentals"
+                onClick={() => this.closeMenu()}
+              >
+                <span className="icon">
+                  <i className="fas fa-wrench" />
+                </span>
+                Rental Properties
+              </Link>
+            </li>
+          </ul>
+          <hr />
+          <ul>
+            <li>
+              <Link to="/contact" onClick={() => this.closeMenu()}>
+                <span className="icon">
+                  <i className="fas fa-envelope" />
+                </span>
+                Contact
+              </Link>
             </li>
           </ul>
         </aside>
