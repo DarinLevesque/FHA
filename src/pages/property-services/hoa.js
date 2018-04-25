@@ -1,4 +1,5 @@
 import React from "react";
+import Obfuscate from "react-obfuscate";
 
 class Homeowners extends React.Component {
   constructor(props) {
@@ -365,132 +366,234 @@ class Homeowners extends React.Component {
             Fair Housing Obligations 9. Race, Color, and National Origin
             Discrimination 10. Housing Discrimination & College Housing
             Obligations 11. Most Common Fair Housing Violations for Properties
-            Our Fair Housing Education modules are designed to be less formal
-            and are built to provide broad knowledge to a less sophisticated
-            audience on a general fair housing subject. Currently Available Fair
-            Housing Education Modules: 1. Fair Housing Education for New Hires,
-            Maintenance Staff, and Board Members 2. What is a Reasonable
-            Accommodation? 3. Protected Class Discrimination & The Federal Fair
-            Housing Act FHA may invite special guest speakers from the fair
-            housing, legal, civil rights, and medical community as well as other
-            subject matter experts FHA hosts at least one Fair Housing Training
-            webinar and one Fair Housing Education webinar each month, by
-            invitation only. \*This service is also offered for purchase
+            <p>
+              Our Fair Housing Education modules are designed to be less formal
+              and are built to provide broad knowledge to a less sophisticated
+              audience on a general fair housing subject.
+            </p>
+            <strong>Currently Available Fair Housing Education Modules:</strong>
+            1. Fair Housing Education for New Hires, Maintenance Staff, and
+            Board Members 2. What is a Reasonable Accommodation? 3. Protected
+            Class Discrimination & The Federal Fair Housing Act
+            <p>
+              FHA may invite special guest speakers from the fair housing,
+              legal, civil rights, and medical community as well as other
+              subject matter experts
+            </p>
+            <p>
+              FHA hosts at least one Fair Housing Training webinar and one Fair
+              Housing Education webinar each month, by invitation only.
+            </p>
+            <p className="is-small">
+              *This service is also offered for purchase separately. Contact FHA
+              at{" "}
+              <Obfuscate
+                email="info@fairhousingact.org"
+                headers={{
+                  subject:
+                    "Question about Specialized Fair Housing Training & Education"
+                }}
+              />{" "}
+              to make arrangements.
+            </p>
+            <p className="title is-4">2. Fair Housing Testing:</p>
+            <p className="subtitle is-6 has-text-right">
+              An FHA Flagship Fair Housing Service
+            </p>
+            <p>
+              Testing is a very important enforcement tool approved by HUD, and
+              it is a very effective means of gathering evidence when FHA files
+              a fair housing complaint on behalf of a consumer. Our testing
+              evidence is always critical to compelling a settlement.
+            </p>
+            <p>
+              FHA can conduct testing upon your property and staff which most
+              closely follows that recommended by HUD for fair housing
+              organizations.
+            </p>
+            <p>
+              FHA would conduct such testing only as an educational tool, not an
+              enforcement tool, to uncover any potentially violative fair
+              housing behavior. Our findings will serve to provide the property
+              with actionable feedback, so the property can make adjustments
+              accordingly.
+            </p>
+            <p>
+              This ‘real world’ testing of your staff is critical to
+              understanding how Fair Housing training and education is actually
+              being implemented where it counts.{" "}
+            </p>
+            <p>
+              A tester results report outlining any compliance concerns or
+              violations can be provided at the conclusion of the testing
+              investigation.
+            </p>
+            <h5>Testing Methods:</h5>
+            <dl>
+              <dt>a) Telephonic Testing:</dt>
+              <dd>
+                FHA will make contact with the association to engage the staff
+                as a person seeking housing and challenge the association staff
+                with a fair housing scenario- the test. Telephonic testing could
+                include text messages exchanged with the association staff. An
+                audio recording of the test call can be provided along with the
+                tester’s report.
+              </dd>
+              <dt>b) Email Testing:</dt>
+              <dd>
+                FHA will make contact with the community to engage the staff as
+                a person seeking housing and challenge the association staff
+                with a fair housing scenario- the test. The test would involve
+                email interactions with the association staff- this may include
+                the submission of completed forms, and documents.
+              </dd>
+              <dt>c) Website Initiated Testing:</dt>
+              <dd>
+                Some associations have online forms on their websites. FHA will
+                engage the association as a person seeking housing and challenge
+                the association staff with a fair housing scenario- the test.
+                The test will be initiated via the online form but may continue
+                via telephone or email.
+              </dd>
+            </dl>
+            <h5>Types of Testing:</h5>
+            <dl>
+              <dt>a) Service Skills:</dt>
+              <dd>
+                FHA would engage in a dialogue to measure both Fair Housing
+                knowledge, as well as the staff member’s customer service
+                skills, and ability to engage in the “interactive dialogue
+                process,” a key component to the reasonable accommodation review
+                process.
+              </dd>
+              <dt>b) Disability Testing:</dt>
+              <dd>
+                Most disability testing would not require a comparative since
+                most discrimination is by treatment, or direct application of a
+                discriminatory rule
+                <ul>
+                  <li>i. Reasonable Accommodation request</li>
+                  <li>ii. Reasonable Modification request</li>
+                </ul>
+              </dd>
+              <dt>c) Familial Status Testing:</dt>
+              <dd>
+                Most Familial Status testing would not require a comparative
+                since most discrimination is by treatment, or direct application
+                of a discriminatory rule
+              </dd>
+              <dt>d) Protected Class Comparative Testing:</dt>
+              <dd>
+                Race, Color, National Origin, Religion, and Sex/Gender. FHA can
+                design tests using the available methods listed above to uncover
+                discriminatory treatment on the basis of a protected class by
+                implementing comparative testing methodology.
+              </dd>
+              <dt>e) Staff Member Specific Testing:</dt>
+              <dd>
+                FHA can work with the association to identify a particular
+                member of their staff as the focus of a fair housing test.
+              </dd>
+              <dt>f) Role Specific Testing:</dt>
+              <dd>
+                FHA can also customize testing methodologies to measure the fair
+                housing aptitude of:
+                <ul>
+                  <li>Property leasing agents</li>
+
+                  <li>Property managers</li>
+                  <li>HOA Board Members </li>
+                  <li>
+                    P/T & F/T staff members accepting in-bound phone calls
+                    regarding housing availability{" "}
+                  </li>
+                  <li>
+                    RE Agents and those immediately ‘outside’ of the property
+                    staff
+                  </li>
+                </ul>
+              </dd>
+            </dl>
+            <p className="is-small">
+              *This service is also offered for purchase separately. Contact FHA
+              at{" "}
+              <Obfuscate
+                email="info@fairhousingact.org"
+                headers={{
+                  subject: "Question about Specialized Fair Housing Testing"
+                }}
+              />{" "}
+              to make arrangements.
+            </p>{" "}
+            <p className="title is-4">3. ESA Letter Analysis:</p>
+            <p className="subtitle is-6 has-text-right">
+              An FHA Flagship Fair Housing Service
+            </p>
+            <p>
+              HOAs are getting inundated with requests to waive their pet rules
+              to accommodate an Emotional Support Animal by a disabled applicant
+              or resident.
+            </p>
+            <p>
+              HUD’s accommodation review process permits the HOA to request
+              “reliable documentation” from the disabled person which should
+              verify the disability, and the need for their ESA as well as the
+              requested accommodation. The housing provider is usually given an
+              “ESA Letter,” or some other documentation [aka “doctor’s letter”]
+              which needs to be properly evaluated.
+            </p>
+            <h6>
+              Each ESA Letter Analysis would consider the following elements:
+            </h6>
+            a) Source “reliability” b) Disability verification c)
+            Disability-related need verification d) Accommodation Requested e)
+            Financial & Administrative burden f) Direct threat to Health &
+            Safety g) Risk of substantial physical damage FHA can provide
+            critical feedback about the “ESA Letter” so the housing provider can
+            take next steps on their own in the interactive dialogue process as
+            well as avoid potential fair housing pitfalls. FHA would receive any
+            ESA Letter via email from the housing provider; likewise, FHA would
+            provide academic feedback based only upon the language of the ESA
+            Letter. FHA does not provide legal advice regarding the tenant’s
+            housing eligibility requirements. The ESA Letter Analysis focuses
+            solely on the construction of the letter and is not meant to be a
+            strict “pass/no-pass” for the applicant’s housing eligibility since
+            many factors are considered by the housing provider FHA would not
+            have access to. \*This service is also offered for purchase
             separately. Contact FHA at info@fairhousingact.org to make
-            arrangements. 2. Fair Housing Testing: An FHA Flagship Fair Housing
-            Service Testing is a very important enforcement tool approved by
-            HUD, and it is a very effective means of gathering evidence when FHA
-            files a fair housing complaint on behalf of a consumer. Our testing
-            evidence is always critical to compelling a settlement. FHA can
-            conduct testing upon your property and staff which most closely
-            follows that recommended by HUD for fair housing organizations. FHA
-            would conduct such testing only as an educational tool, not an
-            enforcement tool, to uncover any potentially violative fair housing
-            behavior. Our findings will serve to provide the property with
-            actionable feedback, so the property can make adjustments
-            accordingly. This ‘real world’ testing of your staff is critical to
-            understanding how Fair Housing training and education is actually
-            being implemented where it counts. A tester results report outlining
-            any compliance concerns or violations can be provided at the
-            conclusion of the testing investigation. Testing Methods: a)
-            Telephonic Testing: FHA will make contact with the association to
-            engage the staff as a person seeking housing and challenge the
-            association staff with a fair housing scenario- the test. Telephonic
-            testing could include text messages exchanged with the association
-            staff. An audio recording of the test call can be provided along
-            with the tester’s report. b) Email Testing: FHA will make contact
-            with the community to engage the staff as a person seeking housing
-            and challenge the association staff with a fair housing scenario-
-            the test. The test would involve email interactions with the
-            association staff- this may include the submission of completed
-            forms, and documents. c) Website Initiated Testing: Some
-            associations have online forms on their websites. FHA will engage
-            the association as a person seeking housing and challenge the
-            association staff with a fair housing scenario- the test. The test
-            will be initiated via the online form but may continue via telephone
-            or email. Types of Testing: a) Service Skills: FHA would engage in a
-            dialogue to measure both Fair Housing knowledge, as well as the
-            staff member’s customer service skills, and ability to engage in the
-            “interactive dialogue process,” a key component to the reasonable
-            accommodation review process. b) Disability Testing: Most disability
-            testing would not require a comparative since most discrimination is
-            by treatment, or direct application of a discriminatory rule i.
-            Reasonable Accommodation request ii. Reasonable Modification request
-            c) Familial Status Testing: Most Familial Status testing would not
-            require a comparative since most discrimination is by treatment, or
-            direct application of a discriminatory rule d) Protected Class
-            Comparative Testing: Race, Color, National Origin, Religion, and
-            Sex/Gender. FHA can design tests using the available methods listed
-            above to uncover discriminatory treatment on the basis of a
-            protected class by implementing comparative testing methodology. e)
-            Staff Member Specific Testing: FHA can work with the association to
-            identify a particular member of their staff as the focus of a fair
-            housing test. f) Role Specific Testing: FHA can also customize
-            testing methodologies to measure the fair housing aptitude of: *
-            Property leasing agents * Property managers * HOA Board Members *
-            P/T & F/T staff members accepting in-bound phone calls regarding
-            housing availability v. RE Agents and those immediately ‘outside’ of
-            the property staff \*This service is also offered for purchase
-            separately. Contact FHA at info@fairhousingact.org to make
-            arrangements. 3. ESA Letter Analysis: An FHA Flagship Fair Housing
-            Service HOAs are getting inundated with requests to waive their pet
-            rules to accommodate an Emotional Support Animal by a disabled
-            applicant or resident. HUD’s accommodation review process permits
-            the HOA to request “reliable documentation” from the disabled person
-            which should verify the disability, and the need for their ESA as
-            well as the requested accommodation. The housing provider is usually
-            given an “ESA Letter,” or some other documentation [aka “doctor’s
-            letter”] which needs to be properly evaluated. Each ESA Letter
-            Analysis would consider the following elements: a) Source
-            “reliability” b) Disability verification c) Disability-related need
-            verification d) Accommodation Requested e) Financial &
-            Administrative burden f) Direct threat to Health & Safety g) Risk of
-            substantial physical damage FHA can provide critical feedback about
-            the “ESA Letter” so the housing provider can take next steps on
-            their own in the interactive dialogue process as well as avoid
-            potential fair housing pitfalls. FHA would receive any ESA Letter
-            via email from the housing provider; likewise, FHA would provide
-            academic feedback based only upon the language of the ESA Letter.
-            FHA does not provide legal advice regarding the tenant’s housing
-            eligibility requirements. The ESA Letter Analysis focuses solely on
-            the construction of the letter and is not meant to be a strict
-            “pass/no-pass” for the applicant’s housing eligibility since many
-            factors are considered by the housing provider FHA would not have
-            access to. \*This service is also offered for purchase separately.
-            Contact FHA at info@fairhousingact.org to make arrangements. 4.
-            Real-Time Fair Housing Consultation: An FHA Flagship Fair Housing
-            Service FHA is available to provide real-time consultation to its
-            clients at a moment’s notice or by appointment. All consultations
-            are confidential. Should FHA be asked to provide customized fair
-            housing advice to address a specific consumer situation which may
-            lead to a fair housing claim or litigation, FHA would have its
-            in-house counsel review, approve, and provide any such advice. Most
-            meetings fall within one of two categories: Casual, and Critical. i.
-            Casual: FHA is providing general fair housing education or answering
-            questions as an extension of the fair housing training/education
-            received. ii. Critical: FHA is tasked to review a critical situation
-            involving a potential, or developing, fair housing issue which might
-            require attention to documents, interactive dialogue, and case
-            specifics. FHA’s counsel would be in attendance. Provided FHA can
-            help resolve the issue during the phone conference, the meeting
-            would fit within this deliverable. If the situation calls for
-            additional work outside the scope of this deliverable, FHA would
-            recommend we move the workload to our “Fair Housing Counselling”
-            service Most Consult meetings usually fall well within the 60-minute
-            range. Email Consultation: FHA is also accessible via email for less
-            time sensitive fair housing counseling and advice needs; response
-            time is within 24 hours via email. Real-Time Communications: FHA
-            prides itself as being the de facto real-time online fair housing
-            organization and is considering making itself available via other
-            online real-time communications channels: Skype [video, text, and
-            call], and Telegram [has point-to-point encryption]. \*This service
-            is also offered for purchase separately. Contact FHA at
-            info@fairhousingact.org to make arrangements. 5. Online Footprint
-            Review An HOA’s message online can be responsible for initiating a
-            fair housing investigation, testing, or even worse- a fair housing
-            complaint. FHA can review your association’s online footprint to
-            uncover any fair housing related concerns. A results report
-            outlining any concerns can be provided. Online footprint may
+            arrangements. 4. Real-Time Fair Housing Consultation: An FHA
+            Flagship Fair Housing Service FHA is available to provide real-time
+            consultation to its clients at a moment’s notice or by appointment.
+            All consultations are confidential. Should FHA be asked to provide
+            customized fair housing advice to address a specific consumer
+            situation which may lead to a fair housing claim or litigation, FHA
+            would have its in-house counsel review, approve, and provide any
+            such advice. Most meetings fall within one of two categories:
+            Casual, and Critical. i. Casual: FHA is providing general fair
+            housing education or answering questions as an extension of the fair
+            housing training/education received. ii. Critical: FHA is tasked to
+            review a critical situation involving a potential, or developing,
+            fair housing issue which might require attention to documents,
+            interactive dialogue, and case specifics. FHA’s counsel would be in
+            attendance. Provided FHA can help resolve the issue during the phone
+            conference, the meeting would fit within this deliverable. If the
+            situation calls for additional work outside the scope of this
+            deliverable, FHA would recommend we move the workload to our “Fair
+            Housing Counselling” service Most Consult meetings usually fall well
+            within the 60-minute range. Email Consultation: FHA is also
+            accessible via email for less time sensitive fair housing counseling
+            and advice needs; response time is within 24 hours via email.
+            Real-Time Communications: FHA prides itself as being the de facto
+            real-time online fair housing organization and is considering making
+            itself available via other online real-time communications channels:
+            Skype [video, text, and call], and Telegram [has point-to-point
+            encryption]. \*This service is also offered for purchase separately.
+            Contact FHA at info@fairhousingact.org to make arrangements. 5.
+            Online Footprint Review An HOA’s message online can be responsible
+            for initiating a fair housing investigation, testing, or even worse-
+            a fair housing complaint. FHA can review your association’s online
+            footprint to uncover any fair housing related concerns. A results
+            report outlining any concerns can be provided. Online footprint may
             include: a) Association Website and all web pages b) Social Media:
             Facebook, Next Door [if applicable] c) Online Marketing &
             Advertising of Property- links provided by the association \*Review

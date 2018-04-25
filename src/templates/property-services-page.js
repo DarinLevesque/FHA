@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
 import Content, { HTMLContent } from "../components/Content";
+import Obfuscate from "react-obfuscate";
 
 export const PropServicesPageTemplate = ({
   title,
@@ -10,7 +11,7 @@ export const PropServicesPageTemplate = ({
   const PageContent = contentComponent || Content;
 
   return (
-    <section className="section section--gradient">
+    <section className="section">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
