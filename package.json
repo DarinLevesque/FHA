@@ -9,6 +9,7 @@
     "bulma-carousel": "^1.1.0",
     "bulma-extensions": "^1.0.14",
     "bulma-pricingtable": "^1.2.0",
+    "bulma-steps": "^1.0.2",
     "card-react": "^1.2.7",
     "gatsby": "^1.9.250",
     "gatsby-cli": "^1.1.50",
@@ -34,7 +35,9 @@
     "react-burger-menu": "^2.4.2",
     "react-helmet": "^5.2.0"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "main": "n/a",
   "scripts": {
@@ -42,8 +45,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "serve": "gatsby serve",
-    "format":
-      "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {

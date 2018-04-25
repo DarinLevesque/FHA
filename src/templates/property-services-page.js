@@ -8,6 +8,15 @@ export const PropServicesPageTemplate = ({
   contentComponent
 }) => {
   const PageContent = contentComponent || Content;
+  var modal = document.getElementById("modal");
+  var elements = document.getElementsByClassName("toggle-modal");
+  for (var i = 0; i < elements.length; i++) {
+    elements[i].addEventListener("click", toggleClass);
+  }
+
+  function toggleClass() {
+    modal.classList.toggle("is-active");
+  }
 
   return (
     <section className="section section--gradient">
@@ -15,7 +24,8 @@ export const PropServicesPageTemplate = ({
         <div className="row">
           <div className="col-lg-12">
             <h1 className="page-header">
-              Property Services<br />
+              {title}
+              <br />
               <small>Our Mission & Purpose</small>
             </h1>
             <nav className="breadcrumb" aria-label="breadcrumbs">
@@ -24,8 +34,8 @@ export const PropServicesPageTemplate = ({
                   <Link to="/">Home</Link>
                 </li>
                 <li className="is-active">
-                  <Link to="/property-services" aria-current="page">
-                    PropServices
+                  <Link to="#" aria-current="page">
+                    {title}
                   </Link>
                 </li>
               </ul>

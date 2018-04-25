@@ -1741,9 +1741,13 @@ bulma-extensions@^1.0.14:
   version "1.0.14"
   resolved "https://registry.yarnpkg.com/bulma-extensions/-/bulma-extensions-1.0.14.tgz#dbd53ede1aa24e7559f3c81621b51885e4b17ebc"
 
-bulma-pricingtable@^0.1.10:
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/bulma-pricingtable/-/bulma-pricingtable-0.1.10.tgz#67cfd1e8e3455c3c7b47040020446c22620b2798"
+bulma-pricingtable@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/bulma-pricingtable/-/bulma-pricingtable-1.2.0.tgz#cee83b8a7b99e874ea1848344ae3fc762356f343"
+
+bulma-steps@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/bulma-steps/-/bulma-steps-1.0.2.tgz#02e94527ba95a56d4b6eb71ca376bdd2b14a005f"
 
 bulma@^0.7.0:
   version "0.7.0"

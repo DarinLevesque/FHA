@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "gatsby-link";
+import Header from "../components/Header";
 import Content, { HTMLContent } from "../components/Content";
 
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
@@ -10,10 +11,6 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <h1 className="page-header">
-              About<br />
-              <small>Our Mission & Purpose</small>
-            </h1>
             <nav className="breadcrumb" aria-label="breadcrumbs">
               <ul>
                 <li>

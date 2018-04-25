@@ -21,7 +21,8 @@ As a result of our experience defending consumers’ rights, we have become expe
 We can help you understand precisely how to protect your property.
 We can help you establish & protect your fair housing rights.
 
-###What Can Fair Housing Advocates Do for My Property?
+### What Can Fair Housing Advocates Do for My Property?
+
 In 2018, FHA is putting all that knowledge and expertise to work for housing providers: HOAs, apartment complexes, condominiums, mobile home parks, and property management firms.
 We've designed a cost-effective program that will educate and train staff, mitigate risk, and ultimately help protect their business long before any fair housing issues become a huge financial problem.
 We provide the staff real-time access to our experts, while we work behind-the-scenes to identify, mitigate, and even eliminate high risk fair housing related problems.
@@ -44,15 +45,16 @@ This package is designed to best address fair housing issues faced by a rental c
 • Receiving rental applications on a monthly basis
 • With monthly resident turnover
 • With annual staff turnover
-Property may include amenities such as a swimming pool, fitness center, and assigned parking.  
-I. Fair Housing Onboarding:
+Property may include amenities such as a swimming pool, fitness center, and assigned parking.
+
+**I. Fair Housing Onboarding:**
 
 1.  Rules, Regulations, and Policies Review
 2.  Applicant and Resident Forms Review
 3.  Reasonable Accommodations & Modifications Process Review
 4.  Posted Rules Review
 
-II. Core Services Package:
+**II. Core Services Package:**
 
 1.  Specialized Fair Housing Training
 2.  Fair Housing Property Testing
@@ -62,37 +64,38 @@ II. Core Services Package:
 6.  New Hire Staff Education Webinar
 7.  Weekly Fair Housing Q&A Call
 
-Fair Housing Property Pro: For Rental Communities
-I. Fair Housing Onboarding
+### Fair Housing Property Pro: For Rental Communities
+
+**I. Fair Housing Onboarding**
 This first step is necessary for FHA to uncover any fair housing related issues in the property’s documents, or in their policies and procedures. Once FHA has identified the property’s weaknesses, we can then suggest the customized training, and design deliverables to have the greatest positive impact.
 
 FHA approaches this Onboarding review process from the perspective of an experienced Fair Housing Advocate- “Would the property’s written rules, regulations, and policies provide an advocate enough reason to investigate the property, test the property, and file a fair housing complaint for a consumer alleging housing discrimination?”
 
 Suggested revisions to any such rules, regulations, policies or procedures could be provided, and approved by FHA’s own in-house legal counsel.
 
-1.  Rules, Regulations, and Policies Review:
+1.  **Rules, Regulations, and Policies Review:**
 
-FHA will intake electronic copies of the association’s Rules & Regulations to identify any potentially discriminatory rules. The following documents are most relevant during the intake process:
+    FHA will intake electronic copies of the association’s Rules & Regulations to identify any potentially discriminatory rules. The following documents are most relevant during the intake process:
 
-I. Pool & Clubhouse Rules
-II. Pool Use Agreement
-III. Community Rules & Regulations
-IV. Community Bylaws & Covenants
-V. Pet & Companion Animal Policy
-VI. Tenant Policy
-VII. New Resident Information
+    I. Pool & Clubhouse Rules
+    II. Pool Use Agreement
+    III. Community Rules & Regulations
+    IV. Community Bylaws & Covenants
+    V. Pet & Companion Animal Policy
+    VI. Tenant Policy
+    VII. New Resident Information
 
-2.  Applicant & Resident Forms Review
+2.  **Applicant & Resident Forms Review**
 
-FHA will review any forms the association might require their applicants and residents to complete during the housing application process- this may include forms which would grant use of the amenities, common areas, as well as pet registration.
+    FHA will review any forms the association might require their applicants and residents to complete during the housing application process- this may include forms which would grant use of the amenities, common areas, as well as pet registration.
 
-I. Tenant Application
-II. Tenant Authorization Form
-III. Pet Agreement
-IV. Pet Addendum
-V. Club House Reservation/Rental
+    I. Tenant Application
+    II. Tenant Authorization Form
+    III. Pet Agreement
+    IV. Pet Addendum
+    V. Club House Reservation/Rental
 
-3.  Reasonable Accommodations & Modifications Process Review:
+3.  **Reasonable Accommodations & Modifications Process Review:**
     The purpose of this service is to review and critique an already existing accommodation or modification review process flow. ‘Process flow’ could include documents but should really show how the staff and residents interact together during the interactive dialogue process to make appropriate fair housing related decisions. Documents would more likely be reviewed during the “Applicant & Resident Forms Review.”
 
 FHA can evaluate your existing written Reasonable Accommodations, and Reasonable Modifications review process if one is already in place. The evaluation will identify any concerns or violations already part of your process, and provide constructive feedback to mitigate, or eliminate the risk.
@@ -101,12 +104,12 @@ Once an acceptable review process is in place, your association would be eligibl
 
 If your association does not have a formal accommodation or modification review process in place, FHA can develop one as a separate deliverable.
 Documents reviewed could include:
-i. Request for Reasonable Modification/Accommodation Verification Form
-ii. Authorization for Release of Information
-iii. Reasonable Accommodation Agreement
+I. Request for Reasonable Modification/Accommodation Verification Form
+II. Authorization for Release of Information
+III. Reasonable Accommodation Agreement
 FHA recommends any suggested changes in policy be reviewed and approved by the property’s legal counsel.
 
-4.  Posted Rules Review
+4.  **Posted Rules Review**
 
 Many allegations of housing discrimination start with rules posted upon a placard at the community’s amenities and common areas. In some cases, the posted rules can differ from those printed in the official Rules & Regulations manual for the community causing confusion within the community’s staff and with the residents.
 
@@ -131,7 +134,7 @@ FHA’s training modules are designed to provide housing providers with immediat
 
 FHA training webinars could also feature special guest speakers from the fair housing, legal, and medical community. Only FHA’s clients are invited to attend our training modules and would have access to a recorded copy online.
 
-Currently Available Fair Housing Training Modules:
+**Currently Available Fair Housing Training Modules:**
 
 1.  Reasonable Accommodations & Modifications for Properties
 2.  Emotional Support Animals [ESAs]- Fake or Real?
@@ -147,7 +150,7 @@ Currently Available Fair Housing Training Modules:
 
 Our Fair Housing Education modules are designed to be less formal and are built to provide broad knowledge to a less sophisticated audience on a general fair housing subject.
 
-Currently Available Fair Housing Education Modules:
+**Currently Available Fair Housing Education Modules:**
 
 1.  Fair Housing Education for New Hires & Maintenance Staff
 2.  What is a Reasonable Accommodation?
@@ -158,7 +161,7 @@ FHA may invite special guest speakers from the fair housing, legal, civil rights
 FHA hosts at least one Fair Housing Training webinar and one Fair Housing Education webinar each month, by invitation only.
 \*This service is also offered for purchase separately. Contact FHA at info@fairhousingact.org to make arrangements.
 
-2.  Fair Housing Testing: An FHA Flagship Fair Housing Service
+2.  **Fair Housing Testing:** An FHA Flagship Fair Housing Service
     Testing is a very important enforcement tool approved by HUD, and it is a very effective means of gathering evidence when FHA files a fair housing complaint on behalf of a consumer. Our testing evidence is always critical to compelling a settlement.
     FHA can conduct testing upon your property and staff which most closely follows that recommended by HUD for fair housing organizations.
     FHA would conduct such testing only as an educational tool, not an enforcement tool, to uncover any potentially violative fair housing behavior. Our findings will serve to provide the property with actionable feedback, so the property can make adjustments accordingly.
@@ -167,13 +170,13 @@ This ‘real world’ testing of your staff is critical to understanding how Fai
 
 A tester results report outlining any compliance concerns or violations can be provided at the conclusion of the testing investigation.
 
-Testing Methods:
+**Testing Methods:**
 
 a) Telephonic Testing: FHA will make contact with the association to engage the staff as a person seeking housing and challenge the association staff with a fair housing scenario- the test. Telephonic testing could include text messages exchanged with the association staff. An audio recording of the test call can be provided along with the tester’s report.
 b) Email Testing: FHA will make contact with the community to engage the staff as a person seeking housing and challenge the association staff with a fair housing scenario- the test. The test would involve email interactions with the association staff- this may include the submission of completed forms, and documents.
 c) Website Initiated Testing: Some communities have online forms on their websites. FHA will engage the association as a person seeking housing and challenge the association staff with a fair housing scenario- the test. The test will be initiated via the online form but may continue via telephone or email.
 
-Types of Testing:
+**Types of Testing:**
 
 a) Service Skills: FHA would engage in a dialogue to measure both Fair Housing knowledge, as well as the staff member’s customer service skills, and ability to engage in the “interactive dialogue process,” a key component to the reasonable accommodation review process.
 b) Disability Testing: Most disability testing would not require a comparative since most discrimination is by treatment, or direct application of a discriminatory rule

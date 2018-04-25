@@ -47,7 +47,7 @@ const Footer = () => (
         <div className="has-text-centered is-mobile">
           <a className="fb-ic">
             <span className="icon">
-              <i className="fas fa-facebook fa-lg white-text" />
+              <i className="fas fa-facebook" />
             </span>
           </a>
           <a className="tw-ic">
