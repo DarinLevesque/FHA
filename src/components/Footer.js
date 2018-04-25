@@ -70,7 +70,7 @@ const Footer = () => (
     </div>
     <div className="footer-copyright py-3 text-center">
       © 2018 Copyright
-      <Link to="/">Fair Housing Advocates, Inc.</Link>
+      <Link to="/"> Fair Housing Advocates, Inc.</Link>
     </div>
   </footer>
 );

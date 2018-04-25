@@ -6,6 +6,7 @@
   "dependencies": {
     "bulma": "^0.7.0",
     "bulma-accordion": "^1.0.1",
+    "bulma-calendar": "^1.3.0",
     "bulma-carousel": "^1.1.0",
     "bulma-extensions": "^1.0.14",
     "bulma-pricingtable": "^1.2.0",
