@@ -1,18 +1,11 @@
 import React from "react";
 import Link from "gatsby-link";
-import {
-  Grid,
-  Row,
-  Col,
-  Carousel,
-  CarouselItem,
-  CarouselCaption,
-  Image
-} from "react-bootstrap";
 
 import carousel1 from "../img/house-window-chair-verandah.jpg";
 import carousel2 from "../img/brickbuilding.jpg";
 import carousel3 from "../img/marine.jpg";
+import Nova from "../img/nova-concealment-sqr.png";
+import OVO from "../img/OVOLogo2LandscapeSmall.png";
 
 export default class IndexPage extends React.Component {
   render() {
@@ -67,6 +60,54 @@ export default class IndexPage extends React.Component {
                   lacus, quis faucibus libero. Quisque non semper leo.
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+        <div class="is-divider" data-content="OUR AFFILIATES" />
+        <div class="carousel is-5 carousel-animated carousel-animate-slide">
+          <div class="carousel-container">
+            <div class="carousel-item is-active">
+              <figure class="image is-2by1">
+                <img src={Nova} />
+              </figure>
+            </div>
+            <div class="carousel-item">
+              <figure class="image is-2by1">
+                <img src={OVO} />
+              </figure>
+            </div>
+            <div class="carousel-item">
+              <figure class="image is-2by1">
+                <img src="https://bulma.io/images/placeholders/640x320.png" />
+              </figure>
+            </div>
+            <div class="carousel-item">
+              <figure class="image is-2by1">
+                <img src="https://bulma.io/images/placeholders/640x320.png" />
+              </figure>
+            </div>
+            <div class="carousel-item">
+              <figure class="image is-2by1">
+                <img src="https://bulma.io/images/placeholders/640x320.png" />
+              </figure>
+            </div>
+            <div class="carousel-item">
+              <figure class="image is-2by1">
+                <img src="https://bulma.io/images/placeholders/640x320.png" />
+              </figure>
+            </div>
+            <div class="carousel-item">
+              <figure class="image is-2by1">
+                <img src="https://bulma.io/images/placeholders/640x320.png" />
+              </figure>
+            </div>
+          </div>
+          <div class="carousel-navigation is-centered">
+            <div class="carousel-nav-left">
+              <i class="fa fa-chevron-left" aria-hidden="true" />
+            </div>
+            <div class="carousel-nav-right">
+              <i class="fa fa-chevron-right" aria-hidden="true" />
             </div>
           </div>
         </div>
