@@ -24,7 +24,15 @@ const Footer = () => (
         </div>
         <div className="col-md-2 mb-3">
           <h6 className="text-uppercase font-weight-bold">
-            <a href="#!">Help</a>
+            <OutboundLink
+              href="https://blog.fairhousingact.org"
+              onClick={() => this.closeMenu()}
+            >
+              <span className="icon">
+                <i className="fas fa-newspaper" />
+              </span>
+              Blog
+            </OutboundLink>
           </h6>
         </div>
         <div className="col-md-2 mb-3">

@@ -1,6 +1,7 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
 import Link, { navigateTo } from "gatsby-link";
+import { OutboundLink } from "gatsby-plugin-google-analytics";
 
 const styles = {
   bmBurgerButton: {
@@ -93,12 +94,15 @@ class Navbar extends React.Component {
               </Link>
             </li>
             <li>
-              <Link to="/blog" onClick={() => this.closeMenu()}>
+              <OutboundLink
+                href="https://blog.fairhousingact.org"
+                onClick={() => this.closeMenu()}
+              >
                 <span className="icon">
                   <i className="fas fa-newspaper" />
                 </span>
                 Blog
-              </Link>
+              </OutboundLink>
             </li>
             <li>
               <Link to="/faq" onClick={() => this.closeMenu()}>
