@@ -13,16 +13,9 @@
     "bulma-steps": "^1.0.2",
     "bulma-tooltip": "^1.0.4",
     "card-react": "^1.2.7",
-<<<<<<< HEAD
     "gatsby": "^1.9.250",
     "gatsby-cli": "^1.1.50",
     "gatsby-link": "^1.6.40",
-=======
-    "dotenv": "^5.0.1",
-    "eslint": "^4.19.1",
-    "gatsby": "^1.9.213",
-    "gatsby-link": "^1.6.37",
->>>>>>> a651528ffd6e38cdf1f5a37ebc026747d43a49cf
     "gatsby-plugin-glamor": "^1.6.13",
     "gatsby-plugin-google-analytics": "^1.0.31",
     "gatsby-plugin-manifest": "^1.0.19",
@@ -39,13 +32,7 @@
     "gatsby-source-filesystem": "^1.5.32",
     "gatsby-transformer-remark": "^1.7.40",
     "gatsby-transformer-sharp": "^1.6.21",
-<<<<<<< HEAD
     "netlify-lambda": "^0.4.0",
-=======
-    "global": "^4.3.2",
-    "jshint": "^2.9.5",
-    "netlify-lambda": "^0.3.0",
->>>>>>> a651528ffd6e38cdf1f5a37ebc026747d43a49cf
     "prop-types": "^15.6.0",
     "react": "^16.3.2",
     "react-accessible-accordion": "^2.2.1",
