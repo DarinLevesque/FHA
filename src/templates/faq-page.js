@@ -2,14 +2,14 @@ import React from "react";
 import Link from "gatsby-link";
 import Faq from "../components/Faq";
 
-export const FAQPageTemplate = ({ title, faq }) => (
+export const FAQPageTemplate = ({title, faq}) => (
   <section className="section section--gradient">
     <div className="container">
       <div className="row">
         <div className="col-lg-12">
           <h1 className="page-header">
             {title}
-            <br />
+            <br/>
             <small>Frequently Asked Questions</small>
           </h1>
           <nav className="breadcrumb" aria-label="breadcrumbs">
@@ -38,7 +38,7 @@ export const FAQPageTemplate = ({ title, faq }) => (
             <p className="is-size-5">{faq.description}</p>
           </div>
           <div className="section">
-            <Faq data={faq.faqs} />
+            <Faq data={faq.faqs}/>
           </div>
         </div>
       </div>
@@ -46,13 +46,13 @@ export const FAQPageTemplate = ({ title, faq }) => (
   </section>
 );
 
-export default ({ data }) => {
-  const { frontmatter } = data.markdownRemark;
+export default({data}) => {
+  const {frontmatter} = data.markdownRemark;
 
-  return <FAQPageTemplate title={frontmatter.title} faq={frontmatter.faq} />;
+  return <FAQPageTemplate title={frontmatter.title} faq={frontmatter.faq}/>;
 };
 
-export const FAQPageQuery = graphql`
+export const FAQPageQuery = graphql `
   query FAQPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
