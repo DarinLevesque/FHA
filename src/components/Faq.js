@@ -1,26 +1,19 @@
-import React from 'react';
-import {
-    Accordion,
-    AccordionItem,
-    AccordionItemTitle,
-    AccordionItemBody,
-  } from 'react-accessible-accordion';
-  
-import 'react-accessible-accordion/dist/fancy-example.css';
+import React from "react";
+// import "../../node_modules/bulma-accordion/dist/bulma-accordion.js";
 
 export default ({ data }) => (
   <div className="columns">
-  <Accordion>
-    {data.map(faq => (
-        <AccordionItem>
-            <AccordionItemTitle>
-                <h3>{faq.question}</h3>
-            </AccordionItemTitle>
-            <AccordionItemBody>
-                <p>{faq.answer}</p>
-            </AccordionItemBody>
-        </AccordionItem>
-    ))}
-    </Accordion>
+    <section className="accordions">
+      {data.map(faq => (
+        <article className="accordion">
+          <div className="accordion-header toggle">
+            <p>{faq.question}</p>
+          </div>
+          <div className="accordion-body">
+            <div className="accordion-content">{faq.answer}</div>
+          </div>
+        </article>
+      ))}
+    </section>
   </div>
-)
+);

@@ -1,81 +1,109 @@
-import React from 'react';
-import Link from 'gatsby-link';
-import { Grid, Row, Col, Carousel, CarouselItem, CarouselCaption } from 'react-bootstrap';
+import React from "react";
+import Link from "gatsby-link";
+
+import carousel1 from "../img/house-window-chair-verandah.jpg";
+import carousel2 from "../img/brickbuilding.jpg";
+import carousel3 from "../img/marine.jpg";
+import Nova from "../img/nova-concealment-sqr.png";
+import OVO from "../img/OVOLogo2LandscapeSmall.png";
+import Patriot from "../img/PatriotLogo.png";
 
 export default class IndexPage extends React.Component {
   render() {
-    const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
+    const { data } = this.props;
+    const { edges: posts } = data.allMarkdownRemark;
 
     return (
       <section className="section">
-      <Carousel>
-        <Carousel.Item>
-          <img width={900} height={500} alt="900x500" src="/carousel.png" />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img width={900} height={500} alt="900x500" src="/carousel.png" />
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img width={900} height={500} alt="900x500" src="/carousel.png" />
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
         <div className="container">
           <div className="content">
-            <h1 className="has-text-weight-bold is-size-2">Index</h1>
+            <h1 className="has-text-weight-bold is-size-2">What we do</h1>
           </div>
-          <Grid>
-            <Row className="show-grid">
-              <Col xs={12} md={8}>
-                <code>&lt;{'Col xs={12} md={8}'} /&gt;</code>
-              </Col>
-              <Col xs={6} md={4}>
-                <code>&lt;{'Col xs={6} md={4}'} /&gt;</code>
-              </Col>
-            </Row>
-
-            <Row className="show-grid">
-              <Col xs={6} md={4}>
-                <code>&lt;{'Col xs={6} md={4}'} /&gt;</code>
-              </Col>
-              <Col xs={6} md={4}>
-                <code>&lt;{'Col xs={6} md={4}'} /&gt;</code>
-              </Col>
-              <Col xsHidden md={4}>
-                <code>&lt;{'Col xsHidden md={4}'} /&gt;</code>
-              </Col>
-            </Row>
-
-            <Row className="show-grid">
-              <Col xs={6} xsOffset={6}>
-                <code>&lt;{'Col xs={6} xsOffset={6}'} /&gt;</code>
-              </Col>
-            </Row>
-
-            <Row className="show-grid">
-              <Col md={6} mdPush={6}>
-                <code>&lt;{'Col md={6} mdPush={6}'} /&gt;</code>
-              </Col>
-              <Col md={6} mdPull={6}>
-                <code>&lt;{'Col md={6} mdPull={6}'} /&gt;</code>
-              </Col>
-            </Row>
-          </Grid>;
+          <div className="tile is-ancestor">
+            <div className="tile is-4 is-vertical is-parent">
+              <div className="tile is-child box">
+                <p className="title">Fair Housing Act Details</p>
+                <p>
+                  The Fair Housing Act was enacted as Title VIII of the Civil
+                  Rights Act of 1968. It protects people from discrimination
+                  based on the protected classes established.
+                </p>
+              </div>
+              <div className="tile is-child box">
+                <p className="title">Webinar Schedule</p>
+                <p>Content</p>
+              </div>
+            </div>
+            <div className="tile is-parent">
+              <div className="tile is-child box">
+                <p className="title">Three</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  semper diam at erat pulvinar, at pulvinar felis blandit.
+                  Vestibulum volutpat tellus diam, consequat gravida libero
+                  rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend,
+                  nunc dui porta orci, quis semper odio felis ut quam.
+                </p>
+                <p>
+                  Suspendisse varius ligula in molestie lacinia. Maecenas varius
+                  eget ligula a sagittis. Pellentesque interdum, nisl nec
+                  interdum maximus, augue diam porttitor lorem, et sollicitudin
+                  felis neque sit amet erat. Maecenas imperdiet felis nisi,
+                  fringilla luctus felis hendrerit sit amet. Aenean vitae
+                  gravida diam, finibus dignissim turpis. Sed eget varius
+                  ligula, at volutpat tortor.
+                </p>
+                <p>
+                  Integer sollicitudin, tortor a mattis commodo, velit urna
+                  rhoncus erat, vitae congue lectus dolor consequat libero.
+                  Donec leo ligula, maximus et pellentesque sed, gravida a
+                  metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet
+                  lacus, quis faucibus libero. Quisque non semper leo.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="is-divider" data-content="OUR AFFILIATES" />
+        <div class="carousel is-5 carousel-animated carousel-animate-slide">
+          <div class="carousel-container">
+            <div class="carousel-item is-active">
+              <figure class="image is-2by1">
+                <img src={Nova} />
+              </figure>
+            </div>
+            <div class="carousel-item">
+              <figure class="image is-2by1">
+                <img src={OVO} />
+              </figure>
+            </div>
+            <div class="carousel-item">
+              <figure class="image is-2by1">
+                <img src={Patriot} />
+              </figure>
+            </div>
+            <div class="carousel-item">
+              <figure class="image is-2by1">
+                <img src="#" />
+              </figure>
+            </div>
+            <div class="carousel-item">
+              <figure class="image is-2by1">
+                <img src="#" />
+              </figure>
+            </div>
+          </div>
+          <div class="carousel-navigation is-centered">
+            <div class="carousel-nav-left">
+              <i class="fa fa-chevron-left" aria-hidden="true" />
+            </div>
+            <div class="carousel-nav-right">
+              <i class="fa fa-chevron-right" aria-hidden="true" />
+            </div>
+          </div>
         </div>
       </section>
-    )
+    );
   }
 }
 
@@ -98,4 +126,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

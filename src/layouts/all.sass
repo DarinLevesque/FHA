@@ -1,10 +1,12 @@
 @import "~bulma/sass/utilities/initial-variables"
+@import "animate.css"
 
 // Config vars
 $kaldi-red: #FD461E
+$kaldi-green: #168712
 $kaldi-red-invert: #fff
 
-$primary: $kaldi-red
+$primary: $kaldi-green
 $primary-invert: $kaldi-red-invert
 
 // Helper Classes
@@ -21,7 +23,17 @@ $primary-invert: $kaldi-red-invert
   justify-content: center
   align-items: center
 
+body
+  font-family: 'Raleway', Arial, sans-serif
+
 .margin-top-0
   margin-top: 0 !important
 
 @import "~bulma"
+@import '~bulma-accordion'
+@import '~bulma-pricingtable'
+@import '~bulma-calendar'
+@import '~bulma-carousel'
+@import '~bulma-steps'
+@import '~bulma-tooltip'
+@import '~bulma-divider'

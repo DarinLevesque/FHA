@@ -1,6 +1,4 @@
-require('dotenv').config();
-
-const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
+const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 
 const statusCode = 200;
 const headers = {
@@ -39,32 +37,32 @@ exports.handler = function(event, context, callback) {
 
     return;
   }
-
-  stripe.charges.create(
-    {
-      currency: 'usd',
-      amount: data.amount,
-      source: data.token.id,
-      receipt_email: data.token.email,
-      description: `charge for a widget`
-    },
-    {
-      idempotency_key: data.idempotency_key
-    }, (err, charge) => {
-
-      if(err !== null) {
-        console.log(err);
-      }
-
-      let status = (charge === null || charge.status !== 'succeeded')
-        ? 'failed'
-        : charge.status;
-
-      callback(null, {
-        statusCode,
-        headers,
-        body: JSON.stringify({status})
-      });
-    }
-  );
 }
+
+stripe.charges.create(
+  {
+    currency: 'usd',
+    amount: data.amount,
+    source: data.token.id,
+    receipt_email: data.token.email,
+    description: `charge for a widget`
+  },
+  {
+    idempotency_key: data.idempotency_key
+  }, (err, charge) => {
+
+    if(err !== null) {
+      console.log(err);
+    }
+
+    let status = (charge === null || charge.status !== 'succeeded')
+      ? 'failed'
+      : charge.status;
+
+    callback(null, {
+      statusCode,
+      headers,
+      body: JSON.stringify({status})
+    });
+  }
+);

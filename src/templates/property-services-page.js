@@ -1,24 +1,33 @@
 import React from "react";
 import Link from "gatsby-link";
-import Header from "../components/Header";
 import Content, { HTMLContent } from "../components/Content";
+import Obfuscate from "react-obfuscate";
 
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
+export const PropServicesPageTemplate = ({
+  title,
+  content,
+  contentComponent
+}) => {
   const PageContent = contentComponent || Content;
 
   return (
-    <section className="section section--gradient">
+    <section className="section">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
+            <h1 className="page-header">
+              {title}
+              <br />
+              <small>Our Mission & Purpose</small>
+            </h1>
             <nav className="breadcrumb" aria-label="breadcrumbs">
               <ul>
                 <li>
                   <Link to="/">Home</Link>
                 </li>
                 <li className="is-active">
-                  <Link to="/about" aria-current="page">
-                    About
+                  <Link to="#" aria-current="page">
+                    {title}
                   </Link>
                 </li>
               </ul>
@@ -26,7 +35,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
           </div>
         </div>
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-12">
             <div className="section">
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
@@ -44,7 +53,7 @@ export default ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
-    <AboutPageTemplate
+    <PropServicesPageTemplate
       contentComponent={HTMLContent}
       title={post.frontmatter.title}
       content={post.html}
@@ -52,8 +61,8 @@ export default ({ data }) => {
   );
 };
 
-export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
+export const propservicesPageQuery = graphql`
+  query PropServicesPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
