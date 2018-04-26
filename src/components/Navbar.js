@@ -93,6 +93,14 @@ class Navbar extends React.Component {
               </Link>
             </li>
             <li>
+              <Link to="/blog" onClick={() => this.closeMenu()}>
+                <span className="icon">
+                  <i className="fas fa-newspaper" />
+                </span>
+                Blog
+              </Link>
+            </li>
+            <li>
               <Link to="/faq" onClick={() => this.closeMenu()}>
                 <span className="icon">
                   <i className="fas fa-question" />

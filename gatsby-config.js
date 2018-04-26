@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Fair Housing Advocates, Inc."
+    title: "Fair Housing Advocates, Inc.",
+    siteUrl: `https://fairhousingact.org`
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -11,7 +12,7 @@ module.exports = {
         short_name: "FHA Inc.",
         start_url: "/",
         background_color: "#f7f0eb",
-        theme_color: "#228844",
+        theme_color: "#116644",
         display: "minimal-ui",
         icons: [
           {
@@ -31,6 +32,7 @@ module.exports = {
         ]
       }
     },
+    `gatsby-plugin-sitemap`,
     "gatsby-plugin-sass",
     {
       resolve: "gatsby-source-filesystem",
