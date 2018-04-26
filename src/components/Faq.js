@@ -1,5 +1,5 @@
 import React from "react";
-import "../../node_modules/bulma-accordion/dist/bulma-accordion.js";
+// import "../../node_modules/bulma-accordion/dist/bulma-accordion.js";
 
 export default ({ data }) => (
   <div className="columns">

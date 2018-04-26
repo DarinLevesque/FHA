@@ -82,6 +82,16 @@ export default class IndexPage extends React.Component {
                 <img src={Patriot} />
               </figure>
             </div>
+            <div class="carousel-item">
+              <figure class="image is-2by1">
+                <img src="#" />
+              </figure>
+            </div>
+            <div class="carousel-item">
+              <figure class="image is-2by1">
+                <img src="#" />
+              </figure>
+            </div>
           </div>
           <div class="carousel-navigation is-centered">
             <div class="carousel-nav-left">
