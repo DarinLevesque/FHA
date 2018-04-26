@@ -1743,6 +1743,10 @@ bulma-carousel@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/bulma-carousel/-/bulma-carousel-1.1.0.tgz#9eef5a5242ed7c2c0954cb3f1f4e4fd7a3ca261b"
 
+bulma-divider@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/bulma-divider/-/bulma-divider-1.0.1.tgz#9b5e537f812b1090033745c6b993253f8e5f429f"
+
 bulma-extensions@^1.0.14:
   version "1.0.14"
   resolved "https://registry.yarnpkg.com/bulma-extensions/-/bulma-extensions-1.0.14.tgz#dbd53ede1aa24e7559f3c81621b51885e4b17ebc"
@@ -1754,6 +1758,10 @@ bulma-pricingtable@^1.2.0:
 bulma-steps@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/bulma-steps/-/bulma-steps-1.0.2.tgz#02e94527ba95a56d4b6eb71ca376bdd2b14a005f"
+
+bulma-tooltip@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/bulma-tooltip/-/bulma-tooltip-1.0.4.tgz#c40cc4d884f0e37c16d8a8a6a0ed7e4c7091a932"
 
 bulma@^0.7.0:
   version "0.7.0"
@@ -4099,6 +4107,13 @@ gatsby-plugin-netlify-cms@^1.0.9:
     netlify-cms "^1.0.1"
     netlify-identity-widget "^1.4.11"
 
+gatsby-plugin-nprogress@^1.0.14:
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-nprogress/-/gatsby-plugin-nprogress-1.0.14.tgz#576f92e0658f1dc66e511b99ff4efe7389bfcc57"
+  dependencies:
+    babel-runtime "^6.26.0"
+    nprogress "^0.2.0"
+
 gatsby-plugin-purify-css@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-purify-css/-/gatsby-plugin-purify-css-2.2.1.tgz#a3716a0d53ac2bae669d8c01afd13fe7c79aaa81"
@@ -4180,6 +4195,12 @@ gatsby-react-router-scroll@^1.0.14:
     babel-runtime "^6.26.0"
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
+
+gatsby-remark-component@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-component/-/gatsby-remark-component-1.1.3.tgz#9a5276d19028b7eaf1ab30f44070124360b8e34e"
+  dependencies:
+    unist-util-visit "^1.1.1"
 
 gatsby-remark-images@^1.5.62:
   version "1.5.62"
@@ -7272,6 +7293,10 @@ npmlog@2.0.3:
     ansi "~0.3.1"
     are-we-there-yet "~1.1.2"
     gauge "~1.2.5"
+
+nprogress@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/nprogress/-/nprogress-0.2.0.tgz#cb8f34c53213d895723fcbab907e9422adbcafb1"
 
 nth-check@^1.0.1, nth-check@~1.0.1:
   version "1.0.1"

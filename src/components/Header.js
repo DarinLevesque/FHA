@@ -13,7 +13,11 @@ const styles = {};
 const Header = ({ title }, { subtitle }) => (
   <div>
     <section className="hero is-medium has-carousel">
-      <div className="hero-carousel carousel-animated carousel-animate-fade">
+      <div
+        className="hero-carousel carousel-animated carousel-animate-fade"
+        data-autoplay="true"
+        data-delay="8000"
+      >
         <div className="carousel-container">
           <div className="carousel-item has-background is-active">
             <figure className="image is-background">
@@ -44,9 +48,9 @@ const Header = ({ title }, { subtitle }) => (
         <nav className="navbar is-transparent">
           <div className="container">
             <div className="navbar-brand">
-              <a className="navbar-item">
+              <Link to="/" className="navbar-item">
                 <img src={logo} alt="Logo" />
-              </a>
+              </Link>
             </div>
             <div id="navbarMenuHeroA" className="navbar-menu">
               <div className="navbar-end">
