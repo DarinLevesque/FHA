@@ -2,7 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 import logo from "../img/fha-type-white.png";
 import title from "../templates/about-page";
-import "../../node_modules/bulma-extensions/bulma-carousel/dist/bulma-carousel.min.js";
+import "../../node_modules/bulma-carousel/dist/bulma-carousel.min.js";
 
 import carousel1 from "../img/house-window-chair-verandah.jpg";
 import carousel2 from "../img/brickbuilding.jpg";
