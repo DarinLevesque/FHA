@@ -1,5 +1,6 @@
 import React from "react";
 import Link, { navigateTo } from "gatsby-link";
+import { OutboundLink } from "gatsby-plugin-google-analytics";
 
 const styles = {};
 
