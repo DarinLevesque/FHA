@@ -66,14 +66,14 @@ Property may include amenities such as a swimming pool, fitness center, and assi
 
 ### Fair Housing Property Pro: For Rental Communities
 
-**I. Fair Housing Onboarding**
+###**I. Fair Housing Onboarding**
 This first step is necessary for FHA to uncover any fair housing related issues in the property’s documents, or in their policies and procedures. Once FHA has identified the property’s weaknesses, we can then suggest the customized training, and design deliverables to have the greatest positive impact.
 
 FHA approaches this Onboarding review process from the perspective of an experienced Fair Housing Advocate- “Would the property’s written rules, regulations, and policies provide an advocate enough reason to investigate the property, test the property, and file a fair housing complaint for a consumer alleging housing discrimination?”
 
 Suggested revisions to any such rules, regulations, policies or procedures could be provided, and approved by FHA’s own in-house legal counsel.
 
-1.  **Rules, Regulations, and Policies Review:**
+#### 1. **Rules, Regulations, and Policies Review:**
 
     FHA will intake electronic copies of the association’s Rules & Regulations to identify any potentially discriminatory rules. The following documents are most relevant during the intake process:
 
@@ -85,7 +85,7 @@ Suggested revisions to any such rules, regulations, policies or procedures could
     VI. Tenant Policy
     VII. New Resident Information
 
-2.  **Applicant & Resident Forms Review**
+#### 2. **Applicant & Resident Forms Review**
 
     FHA will review any forms the association might require their applicants and residents to complete during the housing application process- this may include forms which would grant use of the amenities, common areas, as well as pet registration.
 
@@ -95,7 +95,8 @@ Suggested revisions to any such rules, regulations, policies or procedures could
     IV. Pet Addendum
     V. Club House Reservation/Rental
 
-3.  **Reasonable Accommodations & Modifications Process Review:**
+#### 3. **Reasonable Accommodations & Modifications Process Review:**
+
     The purpose of this service is to review and critique an already existing accommodation or modification review process flow. ‘Process flow’ could include documents but should really show how the staff and residents interact together during the interactive dialogue process to make appropriate fair housing related decisions. Documents would more likely be reviewed during the “Applicant & Resident Forms Review.”
 
 FHA can evaluate your existing written Reasonable Accommodations, and Reasonable Modifications review process if one is already in place. The evaluation will identify any concerns or violations already part of your process, and provide constructive feedback to mitigate, or eliminate the risk.
@@ -109,7 +110,7 @@ II. Authorization for Release of Information
 III. Reasonable Accommodation Agreement
 FHA recommends any suggested changes in policy be reviewed and approved by the property’s legal counsel.
 
-4.  **Posted Rules Review**
+#### 4. **Posted Rules Review**
 
 Many allegations of housing discrimination start with rules posted upon a placard at the community’s amenities and common areas. In some cases, the posted rules can differ from those printed in the official Rules & Regulations manual for the community causing confusion within the community’s staff and with the residents.
 
@@ -119,22 +120,24 @@ i. Picture of posted Pool Rules
 ii. Picture of posted Fitness Center rules
 iii. Picture of Club House Rules
 
-II. Core Services Package
+### II. Core Services Package
+
 The following eight services would be provided to our clients after they have completed the fair housing onboarding process. The services would typically be provided over the life of a one-year agreement.
 
-1.  Specialized Fair Housing Training & Education: An FHA Flagship Fair Housing Service
+#### 1. Specialized Fair Housing Training & Education: An FHA Flagship Fair Housing Service
 
 Our training modules are born from the hundreds of complaints FHA filed and negotiated on behalf of our consumer clients who alleged housing discrimination on the basis of their protected class.
 
 None of our Training Modules provide generic information like those from most national training organizations.
 
 FHA’s training modules are designed to provide housing providers with immediate actionable information and advice. All of our training is conducted Live and is conveniently hosted via webinar, so FHA can address questions as they are presented. An attendee would only need:
-• Internet connection [for video]
-• Phone [for audio]
+
+* Internet connection [for video]
+* Phone [for audio]
 
 FHA training webinars could also feature special guest speakers from the fair housing, legal, and medical community. Only FHA’s clients are invited to attend our training modules and would have access to a recorded copy online.
 
-**Currently Available Fair Housing Training Modules:**
+##### Currently Available Fair Housing Training Modules:
 
 1.  Reasonable Accommodations & Modifications for Properties
 2.  Emotional Support Animals [ESAs]- Fake or Real?
@@ -161,7 +164,8 @@ FHA may invite special guest speakers from the fair housing, legal, civil rights
 FHA hosts at least one Fair Housing Training webinar and one Fair Housing Education webinar each month, by invitation only.
 \*This service is also offered for purchase separately. Contact FHA at info@fairhousingact.org to make arrangements.
 
-2.  **Fair Housing Testing:** An FHA Flagship Fair Housing Service
+#### 2. **Fair Housing Testing:** An FHA Flagship Fair Housing Service
+
     Testing is a very important enforcement tool approved by HUD, and it is a very effective means of gathering evidence when FHA files a fair housing complaint on behalf of a consumer. Our testing evidence is always critical to compelling a settlement.
     FHA can conduct testing upon your property and staff which most closely follows that recommended by HUD for fair housing organizations.
     FHA would conduct such testing only as an educational tool, not an enforcement tool, to uncover any potentially violative fair housing behavior. Our findings will serve to provide the property with actionable feedback, so the property can make adjustments accordingly.
@@ -192,18 +196,20 @@ iii. P/T & F/T staff members accepting in-bound phone calls regarding housing av
 iv. RE Agents and those immediately ‘outside’ of the property staff
 \*This service is also offered for purchase separately. Contact FHA at info@fairhousingact.org to make arrangements.
 
-3.  ESA Letter Analysis: An FHA Flagship Fair Housing Service
-    Housing providers are getting inundated with requests to waive their pet rules to accommodate an Emotional Support Animal by a disabled applicant or resident.
-    HUD’s accommodation review process permits the housing provider to request “reliable documentation” from the disabled person which should verify the disability, and the need for their ESA as well as the requested accommodation. The housing provider is usually given an “ESA Letter,” or some other documentation [aka “doctor’s letter”] which needs to be properly evaluated.
+#### 3. ESA Letter Analysis: An FHA Flagship Fair Housing Service
+
+Housing providers are getting inundated with requests to waive their pet rules to accommodate an Emotional Support Animal by a disabled applicant or resident.
+HUD’s accommodation review process permits the housing provider to request “reliable documentation” from the disabled person which should verify the disability, and the need for their ESA as well as the requested accommodation. The housing provider is usually given an “ESA Letter,” or some other documentation [aka “doctor’s letter”] which needs to be properly evaluated.
 
 Each ESA Letter Analysis would consider the following elements:
-a) Source “reliability”
-b) Disability verification
-c) Disability-related need verification
-d) Accommodation Requested
-e) Financial & Administrative burden
-f) Direct threat to Health & Safety
-g) Risk of substantial physical damage
+
+* Source “reliability”
+* Disability verification
+* Disability-related need verification
+* Accommodation Requested
+* Financial & Administrative burden
+* Direct threat to Health & Safety
+* Risk of substantial physical damage
 
 FHA can provide critical feedback about the “ESA Letter” so the housing provider can take next steps on their own in the interactive dialogue process as well as avoid potential fair housing pitfalls.
 
@@ -211,7 +217,7 @@ FHA would receive any ESA Letter via email from the housing provider; likewise, 
 
 \*This service is also offered for purchase separately. Contact FHA at info@fairhousingact.org to make arrangements.
 
-4.  Real-Time Fair Housing Consultation: An FHA Flagship Fair Housing Service
+#### 4. Real-Time Fair Housing Consultation: An FHA Flagship Fair Housing Service
 
 FHA is available to provide real-time consultation to its clients at a moment’s notice or by appointment. All consultations are confidential.
 
@@ -225,44 +231,45 @@ ii. Critical: FHA is tasked to review a critical situation involving a potential
 Provided FHA can help resolve the issue during the phone conference, the meeting would fit within this deliverable. If the situation calls for additional work outside the scope of this deliverable, FHA would recommend we move the workload to our “Fair Housing Counselling” service
 Most Consult meetings usually fall well within the 60-minute range.
 
-Email Consultation:
+###### Email Consultation:
 
 FHA is also accessible via email for less time sensitive fair housing counseling and advice needs; response time is within 24 hours via email.
 
-Real-Time Communications:
+###### Real-Time Communications:
 
 FHA prides itself as being the de facto real-time online fair housing organization and is considering making itself available via other online real-time communications channels: Skype [video, text, and call], and Telegram [has point-to-point encryption].
 
 \*This service is also offered for purchase separately. Contact FHA at info@fairhousingact.org to make arrangements.
 
-5.  Online Footprint Review
+#### 5. Online Footprint Review
 
 A community’s message online can be responsible for initiating a fair housing investigation, testing, or even worse- a fair housing complaint. FHA can review your association’s online footprint to uncover any fair housing related concerns. A results report outlining any concerns can be provided.
 
 Online footprint may include:
 
-a) Association Website and all web pages
-b) Social Media: Facebook, Next Door [if applicable]
-c) Online Marketing & Advertising of Property- links provided by the association
+* Association Website and all web pages
+* Social Media: Facebook, Next Door [if applicable]
+* Online Marketing & Advertising of Property- links provided by the association
 
 \*Review to occur during month of annual membership anniversary.
 
-6.  New Hire Staff Education Webinar
+#### 6. New Hire Staff Education Webinar
 
 FHA designed a basic fair housing training webinar which provides a broad overview of the federal Fair Housing Act for new hires, and maintenance staff.
 
 The webinar will cover housing discrimination on the basis of Race, Color, National Origin, Gender, Familial Status, and Disability. The webinar will also provide a small focus on the most common fair housing violations affecting disabled persons at rental communities:
 
-i. Reasonable accommodations
-ii. Reasonable modifications
-iii. Familial status discrimination and rules against children
+* Reasonable accommodations
+* Reasonable modifications
+* Familial status discrimination and rules against children
+
 The webinar will have a live Q&A session to handle any immediate concerns by the new hire.
 
 The webinar will not provide state-specific fair housing training; all training is federal fair housing focused.
 
 \*This service is also offered for purchase separately. Contact FHA at info@fairhousingact.org to make arrangements.
 
-7.  Weekly Fair Housing Q&A Call
+#### 7. Weekly Fair Housing Q&A Call
 
 This is a live open forum telephonic conference call for clients only. This is not a recorded call and will not be accessible afterwards.
 
@@ -272,7 +279,8 @@ FHA may invite special guest speakers from the fair housing, legal, civil rights
 
 Anticipated call time of 60 minutes or less based upon activity
 
-How Do You Get Started?
+#### How Do You Get Started?
+
 FHA wants to provide you with the most impactful fair housing advice to protect your property, staff, and fair housing rights.
 Please provide FHA with a copy of your property’s Rules & Regulations, especially those written rules which address use of the pool, club house, and fitness center if you have them.
 Send your Rules & Regulations to FHA by email to: info@fairhousingact.org
@@ -280,5 +288,6 @@ Use Subject heading: “Rules & Regulations Review”
 FHA’s fair housing expert will personally review your community’s rules & regulations to identify violations and soft spots. You will receive a markup pdf view email.
 The no cost review usually is completed within 48 hours of acknowledging receipt.
 
-Contact Us
+#### Contact Us
+
 If you have any questions or requests, please reach us at info@fairhousingact.org or 877.838.9963

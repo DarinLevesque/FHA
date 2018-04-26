@@ -1,17 +1,19 @@
 import React from "react";
-import { Panel, PanelGroup, Accordion } from "react-bootstrap";
+import "../../node_modules/bulma-extensions/bulma-accordion/dist/bulma-accordion.min.js";
 
 export default ({ data }) => (
   <div className="columns">
-    <PanelGroup accordion id="accordion-example">
+    <section className="accordions">
       {data.map(faq => (
-        <Panel eventKey={faq.id} key={faq.id}>
-          <Panel.Heading>
-            <Panel.Title toggle>{faq.question}</Panel.Title>
-          </Panel.Heading>
-          <Panel.Body collapsible>{faq.answer}</Panel.Body>
-        </Panel>
+        <article className="accordion">
+          <div className="accordion-header toggle">
+            <p>{faq.question}</p>
+          </div>
+          <div className="accordion-body">
+            <div className="accordion-content">{faq.answer}</div>
+          </div>
+        </article>
       ))}
-    </PanelGroup>
+    </section>
   </div>
 );

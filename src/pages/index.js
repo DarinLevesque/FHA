@@ -21,31 +21,6 @@ export default class IndexPage extends React.Component {
 
     return (
       <section className="section">
-        <Carousel>
-          <Carousel.Item>
-            <Image src={carousel1} responsive />
-            <Carousel.Caption>
-              <h3>Fair Housing Advocates, Inc.</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <Image src={carousel2} responsive />
-            <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <Image src={carousel3} responsive />
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
         <div className="container">
           <div className="content">
             <h1 className="has-text-weight-bold is-size-2">What we do</h1>
