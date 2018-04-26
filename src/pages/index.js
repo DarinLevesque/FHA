@@ -6,6 +6,7 @@ import carousel2 from "../img/brickbuilding.jpg";
 import carousel3 from "../img/marine.jpg";
 import Nova from "../img/nova-concealment-sqr.png";
 import OVO from "../img/OVOLogo2LandscapeSmall.png";
+import Patriot from "../img/PatriotLogo.png";
 
 export default class IndexPage extends React.Component {
   render() {
@@ -78,27 +79,7 @@ export default class IndexPage extends React.Component {
             </div>
             <div class="carousel-item">
               <figure class="image is-2by1">
-                <img src="https://bulma.io/images/placeholders/640x320.png" />
-              </figure>
-            </div>
-            <div class="carousel-item">
-              <figure class="image is-2by1">
-                <img src="https://bulma.io/images/placeholders/640x320.png" />
-              </figure>
-            </div>
-            <div class="carousel-item">
-              <figure class="image is-2by1">
-                <img src="https://bulma.io/images/placeholders/640x320.png" />
-              </figure>
-            </div>
-            <div class="carousel-item">
-              <figure class="image is-2by1">
-                <img src="https://bulma.io/images/placeholders/640x320.png" />
-              </figure>
-            </div>
-            <div class="carousel-item">
-              <figure class="image is-2by1">
-                <img src="https://bulma.io/images/placeholders/640x320.png" />
+                <img src={Patriot} />
               </figure>
             </div>
           </div>
