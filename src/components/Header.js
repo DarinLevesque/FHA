@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "gatsby-link";
 import logo from "../img/fha-type-white.png";
 import title from "../templates/about-page";
 
@@ -10,9 +11,9 @@ const Header = ({ title }, { subtitle }) => (
       <nav className="navbar">
         <div className="container">
           <div className="navbar-brand">
-            <a className="navbar-item">
+            <Link to="/" className="navbar-item">
               <img src={logo} alt="Logo" />
-            </a>
+            </Link>
           </div>
         </div>
       </nav>

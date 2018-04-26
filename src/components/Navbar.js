@@ -113,7 +113,7 @@ class Navbar extends React.Component {
           <ul>
             <li>
               <Link
-                to="/property-services/hoa"
+                to="/property-services/homeowner-associations"
                 onClick={() => this.closeMenu()}
               >
                 <span className="icon">
