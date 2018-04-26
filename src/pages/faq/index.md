@@ -5,7 +5,7 @@ title: FAQ
 faq:
   heading: Frequently Asked Questions
   description: >-
-    Below you will find the answers to the questions we receive most often. 
+    Below you will find the answers to the questions we receive most often.
     If you don't find the answer you're looking for please reach out to us.
   faqs:
   - question: Who Can File a Fair Housing Complaint?

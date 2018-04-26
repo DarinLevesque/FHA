@@ -325,44 +325,44 @@ ii. Critical: FHA is tasked to review a critical situation involving a potential
 Provided FHA can help resolve the issue during the phone conference, the meeting would fit within this deliverable. If the situation calls for additional work outside the scope of this deliverable, FHA would recommend we move the workload to our “Fair Housing Counselling” service
 Most Consult meetings usually fall well within the 60-minute range.
 
-Email Consultation:
+###### Email Consultation:
 
 FHA is also accessible via email for less time sensitive fair housing counseling and advice needs; response time is within 24 hours via email.
 
-Real-Time Communications:
+###### Real-Time Communications:
 
 FHA prides itself as being the de facto real-time online fair housing organization and is considering making itself available via other online real-time communications channels: Skype [video, text, and call], and Telegram [has point-to-point encryption].
 
 \*This service is also offered for purchase separately. Contact FHA at info@fairhousingact.org to make arrangements.
 
-5.  Online Footprint Review
+#### 5. Online Footprint Review
 
 An HOA’s message online can be responsible for initiating a fair housing investigation, testing, or even worse- a fair housing complaint. FHA can review your association’s online footprint to uncover any fair housing related concerns. A results report outlining any concerns can be provided.
 
 Online footprint may include:
 
-a) Association Website and all web pages
-b) Social Media: Facebook, Next Door [if applicable]
-c) Online Marketing & Advertising of Property- links provided by the association
+* Association Website and all web pages
+* Social Media: Facebook, Next Door [if applicable]
+* Online Marketing & Advertising of Property- links provided by the association
 
 \*Review to occur during month of annual membership anniversary.
 
-6.  Board Member & Property Management Education Webinar
+#### 6. Board Member & Property Management Education Webinar
 
 FHA designed a basic fair housing training webinar which provides a broad overview of the federal Fair Housing Act for new hires, HOA board members, and property management staff.
 
 The webinar will cover housing discrimination on the basis of Race, Color, National Origin, Gender, Familial Status, and Disability. The webinar will also provide a small focus on the most common fair housing violations affecting disabled persons at HOA communities:
 
-i. Reasonable accommodations: Emotional Support Animals, and parking spaces for the disabled
-ii. Reasonable modifications
-iii. Familial status discrimination and rules against children
-The webinar will have a live Q&A session to handle any immediate concerns by the new hire.
+* Reasonable accommodations: Emotional Support Animals, and parking spaces for the disabled
+* Reasonable modifications
+* Familial status discrimination and rules against children
+  The webinar will have a live Q&A session to handle any immediate concerns by the new hire.
 
 The webinar will not provide state-specific fair housing training; all training is federal fair housing focused.
 
 \*This service is also offered for purchase separately. Contact FHA at info@fairhousingact.org to make arrangements.
 
-7.  Weekly Fair Housing Q&A Call
+#### 7. Weekly Fair Housing Q&A Call
 
 This is a live open forum telephonic conference call for clients only. This is not a recorded call and will not be accessible afterwards.
 
@@ -372,7 +372,8 @@ FHA may invite special guest speakers from the fair housing, legal, civil rights
 
 Anticipated call time of 60 minutes or more based upon activity.
 
-How Do You Get Started?
+### How Do You Get Started?
+
 FHA wants to provide you with the most impactful fair housing advice to protect your property, staff, and fair housing rights.
 Please provide FHA with a copy of your property’s Rules & Regulations, especially those written rules which address use of the pool, club house, and fitness center if you have them.
 Send your Rules & Regulations to FHA by email to: info@fairhousingact.org
@@ -380,9 +381,6 @@ Use Subject heading: “Rules & Regulations Review”
 FHA’s fair housing expert will personally review your community’s rules & regulations to identify violations and soft spots. You will receive a markup pdf view email.
 The no cost review usually is completed within 48 hours of acknowledging receipt.
 
-Contact Us
-If you have any questions or requests, please reach us at <Obfuscate
-email='info@fairhousingact.org'
-headers={
-{subject:'Question from the website'}
-}/> or <Obfuscate tel='877.838.9963' />
+##### Contact Us
+
+If you have any questions or requests, please reach us at info@fairhousingact.org or 877.838.9963
