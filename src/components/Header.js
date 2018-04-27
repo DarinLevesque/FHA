@@ -2,6 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 import logo from "../img/fha-type-white.png";
 import title from "../templates/about-page";
+import { OutboundLink } from "gatsby-plugin-google-analytics";
 // import "../../node_modules/bulma-carousel/dist/bulma-carousel.js";
 
 import carousel1 from "../img/house-window-chair-verandah.jpg";
@@ -54,9 +55,16 @@ const Header = ({ title }, { subtitle }) => (
             </div>
             <div id="navbarMenuHeroA" className="navbar-menu">
               <div className="navbar-end">
-                <Link to="/blog" className="navbar-item has-text-white">
+                <OutboundLink
+                  className="navbar-item has-text-white"
+                  href="https://blog.fairhousingact.org"
+                  onClick={() => this.closeMenu()}
+                >
+                  <span className="icon">
+                    <i className="fas fa-newspaper" />
+                  </span>
                   Blog
-                </Link>
+                </OutboundLink>
               </div>
             </div>
           </div>
