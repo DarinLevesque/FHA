@@ -9,12 +9,9 @@ import OVO from "../img/OVOLogo2LandscapeSmall.png";
 import Patriot from "../img/PatriotLogo.png";
 
 export default class IndexPage extends React.Component {
-  render() {
-    const { data } = this.props;
-    const { edges: posts } = data.allMarkdownRemark;
-
+  componentDidMount() {
     (function() {
-      var qs,
+      let qs,
         js,
         q,
         s,
@@ -32,6 +29,11 @@ export default class IndexPage extends React.Component {
         q.parentNode.insertBefore(js, q);
       }
     })();
+  }
+
+  render() {
+    const { data } = this.props;
+    const { edges: posts } = data.allMarkdownRemark;
 
     return (
       <section className="section">
@@ -91,7 +93,9 @@ export default class IndexPage extends React.Component {
                 </p>
                 <p style={{ marginTop: 10 }}>
                   Fair Housing Advocates Inc. are experts in the Fair Housing
-                  Act claims process and education. We provide education seminars/webinars, property testing and other services which are all explained in our Property Pro section.
+                  Act claims process and education. We provide education
+                  seminars/webinars, property testing and other services which
+                  are all explained in our Property Pro section.
                 </p>
               </div>
             </div>
