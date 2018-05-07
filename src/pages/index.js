@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "gatsby-link";
-import Accordion from "../../node_modules/bulma-accordion/dist/bulma-accordion.js";
 import Carousel from "../../node_modules/bulma-carousel/dist/bulma-carousel.js";
 
 import carousel1 from "../img/house-window-chair-verandah.jpg";
