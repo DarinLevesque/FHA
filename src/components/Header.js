@@ -63,7 +63,7 @@ const Header = ({ title }, { subtitle }) => (
                   <span className="icon">
                     <i className="fas fa-newspaper" />
                   </span>
-                  Blog
+                  &nbsp;Blog
                 </OutboundLink>
               </div>
             </div>

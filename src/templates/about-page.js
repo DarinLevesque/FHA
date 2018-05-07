@@ -11,7 +11,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <nav className="breadcrumb" aria-label="breadcrumbs">
+            <nav className="breadcrumb is-centered" aria-label="breadcrumbs">
               <ul>
                 <li>
                   <Link to="/">Home</Link>

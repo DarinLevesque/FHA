@@ -15,12 +15,7 @@ export const PropServicesPageTemplate = ({
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <h1 className="page-header">
-              {title}
-              <br />
-              <small>Our Mission & Purpose</small>
-            </h1>
-            <nav className="breadcrumb" aria-label="breadcrumbs">
+            <nav className="breadcrumb is-centered" aria-label="breadcrumbs">
               <ul>
                 <li>
                   <Link to="/">Home</Link>
