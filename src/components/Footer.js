@@ -7,20 +7,35 @@ const styles = {};
 const Footer = () => (
   <footer styles={styles} className="page-footer footer font-small indigo pt-0">
     <div className="container">
-      <div className="has-text-centered">
+      <div class="level is-mobile">
         <div className="col-md-2 mb-3">
           <h6 className="text-uppercase font-weight-bold">
-            <Link to="/about">About us</Link>
+            <Link to="/about">
+              <span className="icon">
+                <i className="fas fa-search" />
+              </span>
+              About us
+            </Link>
           </h6>
         </div>
         <div className="col-md-2 mb-3">
           <h6 className="text-uppercase font-weight-bold">
-            <Link to="/property-services">Property Services</Link>
+            <Link to="/property-services">
+              <span className="icon">
+                <i className="fas fa-home" />
+              </span>
+              Property Services
+            </Link>
           </h6>
         </div>
         <div className="col-md-2 mb-3">
           <h6 className="text-uppercase font-weight-bold">
-            <Link to="/terms-of-service">Terms of Service</Link>
+            <Link to="/terms-of-service">
+              <span className="icon">
+                <i className="fas fa-exclamation" />
+              </span>
+              Terms of Service
+            </Link>
           </h6>
         </div>
         <div className="col-md-2 mb-3">
@@ -38,7 +53,12 @@ const Footer = () => (
         </div>
         <div className="col-md-2 mb-3">
           <h6 className="text-uppercase font-weight-bold">
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact">
+              <span className="icon">
+                <i className="fas fa-envelope" />
+              </span>
+              Contact
+            </Link>
           </h6>
         </div>
       </div>
@@ -77,7 +97,7 @@ const Footer = () => (
         </div>
       </div>
     </div>
-    <div className="footer-copyright py-3 text-center">
+    <div className="footer-copyright py-3 text-center has-text-centered is-centered">
       © 2018 Copyright
       <Link to="/"> Fair Housing Advocates, Inc.</Link>
     </div>
