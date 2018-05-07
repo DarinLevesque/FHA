@@ -7,7 +7,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
 
   return (
-    <section className="section section--gradient">
+    <section className="section">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">

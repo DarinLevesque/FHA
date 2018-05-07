@@ -11,7 +11,10 @@ class Contact extends React.Component {
           <div className="container">
             <div className="columns">
               <div className="column is-10 is-offset-1">
-                <nav class="breadcrumb is-centered" aria-label="breadcrumbs">
+                <nav
+                  className="breadcrumb is-centered"
+                  aria-label="breadcrumbs"
+                >
                   <ul>
                     <li>
                       <Link to="/">Home</Link>

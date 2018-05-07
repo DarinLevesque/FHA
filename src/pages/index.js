@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "gatsby-link";
+import Accordion from "../../node_modules/bulma-accordion/dist/bulma-accordion.js";
+import Carousel from "../../node_modules/bulma-carousel/dist/bulma-carousel.js";
 
 import carousel1 from "../img/house-window-chair-verandah.jpg";
 import carousel2 from "../img/brickbuilding.jpg";
@@ -29,6 +31,7 @@ export default class IndexPage extends React.Component {
         q.parentNode.insertBefore(js, q);
       }
     })();
+    <Carousel />;
   }
 
   render() {

@@ -9,7 +9,7 @@ export const ContactPageTemplate = ({ title, content, contentComponent }) => {
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <nav class="breadcrumb is-centered" aria-label="breadcrumbs">
+            <nav className="breadcrumb is-centered" aria-label="breadcrumbs">
               <ul>
                 <li>
                   <a href="#">Bulma</a>
@@ -20,7 +20,7 @@ export const ContactPageTemplate = ({ title, content, contentComponent }) => {
                 <li>
                   <a href="#">Components</a>
                 </li>
-                <li class="is-active">
+                <li className="is-active">
                   <a href="#" aria-current="page">
                     Breadcrumb
                   </a>
