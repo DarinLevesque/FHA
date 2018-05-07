@@ -7,7 +7,7 @@ const styles = {};
 const Footer = () => (
   <footer styles={styles} className="page-footer footer font-small indigo pt-0">
     <div className="container">
-      <div class="level is-mobile">
+      <div className="level is-mobile">
         <div className="col-md-2 mb-3">
           <h6 className="text-uppercase font-weight-bold">
             <Link to="/about">
@@ -80,19 +80,29 @@ const Footer = () => (
             </span>
           </a>
           <a className="tw-ic">
-            <i className="fas fa-twitter fa-lg white-text" />
+            <span className="icon">
+              <i className="fas fa-twitter" />
+            </span>
           </a>
           <a className="gplus-ic">
-            <i className="fas fa-google-plus fa-lg white-text" />
+            <span className="icon">
+              <i className="fas fa-google-plus" />
+            </span>
           </a>
           <a className="li-ic">
-            <i className="fas fa-linkedin fa-lg white-text" />
+            <span className="icon">
+              <i className="fas fa-linkedin" />
+            </span>
           </a>
           <a className="ins-ic">
-            <i className="fas fa-instagram fa-lg white-text" />
+            <span className="icon">
+              <i className="fas fa-instagram" />
+            </span>
           </a>
           <a className="pin-ic">
-            <i className="fas fa-pinterest fa-lg white-text" />
+            <span className="icon">
+              <i className="fas fa-pinterest" />
+            </span>
           </a>
         </div>
       </div>

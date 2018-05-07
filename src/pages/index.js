@@ -101,41 +101,41 @@ export default class IndexPage extends React.Component {
             </div>
           </div>
         </div>
-        <div class="is-divider" data-content="OUR AFFILIATES" />
-        <div class="carousel is-5 carousel-animated carousel-animate-slide">
-          <div class="carousel-container">
-            <div class="carousel-item is-active">
-              <figure class="image is-2by1">
+        <div className="is-divider" data-content="OUR AFFILIATES" />
+        <div className="carousel is-5 carousel-animated carousel-animate-slide">
+          <div className="carousel-container">
+            <div className="carousel-item is-active">
+              <figure className="image is-2by1">
                 <img src={Nova} />
               </figure>
             </div>
-            <div class="carousel-item">
-              <figure class="image is-2by1">
+            <div className="carousel-item">
+              <figure className="image is-2by1">
                 <img src={OVO} />
               </figure>
             </div>
-            <div class="carousel-item">
-              <figure class="image is-2by1">
+            <div className="carousel-item">
+              <figure className="image is-2by1">
                 <img src={Patriot} />
               </figure>
             </div>
-            <div class="carousel-item">
-              <figure class="image is-2by1">
+            <div className="carousel-item">
+              <figure className="image is-2by1">
                 <img src="#" />
               </figure>
             </div>
-            <div class="carousel-item">
-              <figure class="image is-2by1">
+            <div className="carousel-item">
+              <figure className="image is-2by1">
                 <img src="#" />
               </figure>
             </div>
           </div>
-          <div class="carousel-navigation is-centered">
-            <div class="carousel-nav-left">
-              <i class="fa fa-chevron-left" aria-hidden="true" />
+          <div className="carousel-navigation is-centered">
+            <div className="carousel-nav-left">
+              <i className="fa fa-chevron-left" aria-hidden="true" />
             </div>
-            <div class="carousel-nav-right">
-              <i class="fa fa-chevron-right" aria-hidden="true" />
+            <div className="carousel-nav-right">
+              <i className="fa fa-chevron-right" aria-hidden="true" />
             </div>
           </div>
         </div>
